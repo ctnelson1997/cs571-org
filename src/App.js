@@ -9,13 +9,13 @@ function App() {
     <div className='pad'>
       <Container>
         <Row>
-          <h1>Welcome to CS571!</h1>
+          <h1>Welcome to CS571 S23!</h1>
         </Row>
         <Row>
-          <Col sm={12} md={6}>
+          <Col xs={12} lg={6}>
             <About />
           </Col>
-          <Col sm={12} md={6}>
+          <Col xs={12} lg={6}>
             <Schedule />
           </Col>
         </Row>
