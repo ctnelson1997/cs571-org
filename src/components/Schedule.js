@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 export default function Schedule() {
     return <>
         <h2>Schedule</h2>
-        <p>All course content is available <a href="https://github.com/CS571-S23">via GitHub Classroom!</a> Course grading details <b>are provied below the schedule.</b></p>
+        <p>All course content is available <a href="https://github.com/CS571-S23">via GitHub Classroom!</a> Course grading details <b>are provied below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
         <Table striped bordered hover>
             <thead>
                 <tr>
@@ -16,7 +16,7 @@ export default function Schedule() {
             <tbody>
                 <tr>
                     <td>Jan 23<br/></td>
-                    <td>Intro & Design Thinking</td>
+                    <td>Intro <a href="https://github.com/CS571-S23/lectures/blob/main/Week01/Week01-Intro/week01-intro.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ih4czy2t" target="_blank">(R)</a> & Design Thinking</td>
                     <td><a href="https://github.com/CS571-S23/hw1">HW1</a></td>
                     <td>Quiz A</td>
                 </tr>
@@ -100,13 +100,13 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>May 1<br/></td>
-                    <td>Fullstack Development & Final Exam Review</td>
+                    <td>Fullstack Development & <strong>Final Exam</strong></td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
                 <tr>
                     <td>May 8<br/></td>
-                    <td><strong>Final Exam</strong></td>
+                    <td>Good luck on your other finals!</td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
