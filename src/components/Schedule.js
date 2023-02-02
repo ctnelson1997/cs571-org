@@ -16,13 +16,13 @@ export default function Schedule() {
             <tbody>
                 <tr>
                     <td>Jan 23<br/></td>
-                    <td>Intro <a href="https://github.com/CS571-S23/lectures/blob/main/Week01/Week01-Intro/week01-intro.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ih4czy2t" target="_blank">(R)</a> & Design Thinking</td>
+                    <td>Intro <a href="https://github.com/CS571-S23/lectures/blob/main/Week01/Week01-Intro/week01-intro.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ih4czy2t" target="_blank">(R)</a> & Design Thinking <a href="https://github.com/CS571-S23/lectures/blob/main/Week01/Week01-DesignThinking/week01-design.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_2hwmj8hr" target="_blank">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw1">HW1</a></td>
                     <td>Quiz A</td>
                 </tr>
                 <tr>
                     <td>Jan 30<br/></td>
-                    <td>JavaScript Bootcamp (JS1 & JS2)</td>
+                    <td>JavaScript Bootcamp (JS1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week02/Week02-JS1/week02-js1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_xgvs2tx3">(R)</a> & JS2 <a href="https://github.com/CS571-S23/lectures/blob/main/Week02/Week02-JS2/week02-js2.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_9ff0o9mp" target="_blank">(R)</a>)</td>
                     <td><a href="https://github.com/CS571-S23/hw2">HW2</a></td>
                     <td>Quiz B</td>
                 </tr>
