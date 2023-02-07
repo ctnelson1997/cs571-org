@@ -28,7 +28,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 6<br/></td>
-                    <td>JS3 & Web/Interaction Design</td>
+                    <td>JS3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week03/week03-js3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_kpdlzh3w">(R)</a> & Web/Interaction Design</td>
                     <td><a href="https://github.com/CS571-S23/hw3">HW3</a></td>
                     <td>Quiz C</td>
                 </tr>
