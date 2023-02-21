@@ -28,19 +28,19 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 6<br/></td>
-                    <td>JS3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week03/week03-js3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_kpdlzh3w">(R)</a> & Web/Interaction Design</td>
+                    <td>JS3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week03/Week03-JS3/week03-js3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_kpdlzh3w">(R)</a> & Web/Interaction Design <a href="https://github.com/CS571-S23/lectures/blob/main/Week03/Week03-DesktopWebDesign/week03-desktopwebdesign.pdf" target="_blank">(N)</a> <a href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_z1bmxaiq" target="_blank">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw3">HW3</a></td>
                     <td>Quiz C</td>
                 </tr>
                 <tr>
                     <td>Feb 13<br/></td>
-                    <td>React Bootcamp (R1 & R2)</td>
+                    <td>React Bootcamp (R1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week04/Week04-React1/week04-react1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_vtwhuemr">(R)</a> & R2 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week04/Week04-React2/week04-react2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_j27qkove">(R)</a>)</td>
                     <td><a href="https://github.com/CS571-S23/hw4">HW4</a></td>
                     <td>Quiz D</td>
                 </tr>
                 <tr>
                     <td>Feb 20<br/></td>
-                    <td>React 3 & Visual Design</td>
+                    <td>React 3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week05/Week05-React3/week05-react3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_vvoxkgra">(R)</a> & Visual Design</td>
                     <td><a href="https://github.com/CS571-S23/hw5">HW5</a></td>
                     <td>Quiz E</td>
                 </tr>
@@ -100,13 +100,13 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>May 1<br/></td>
-                    <td>Fullstack Development & <strong>Final Exam</strong></td>
+                    <td>Building Secure UIs & Fullstack Dev</td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
                 <tr>
                     <td>May 8<br/></td>
-                    <td>Good luck on your other finals!</td>
+                    <td><strong>Final Exam</strong></td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
