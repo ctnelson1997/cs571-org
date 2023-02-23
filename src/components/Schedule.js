@@ -40,7 +40,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 20<br/></td>
-                    <td>React 3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week05/Week05-React3/week05-react3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_vvoxkgra">(R)</a> & Visual Design</td>
+                    <td>React 3 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week05/Week05-React3/week05-react3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_vvoxkgra">(R)</a> & Visual Design <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week05/Week05-VisualDesign/week05-visualdesign.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_m5q5tdei">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw5">HW5</a></td>
                     <td>Quiz E</td>
                 </tr>
