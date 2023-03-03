@@ -46,7 +46,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 27<br/></td>
-                    <td>React 4 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week06/Week06-React4/week06-react4.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_qlp8fdrt">(R)</a> & Expert Evaluation</td>
+                    <td>React 4 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week06/Week06-React4/week06-react4.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_qlp8fdrt">(R)</a> & Expert Evaluation <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week06/Week06-ExpertEval/week06-experteval.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_4prabj6d">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw6">HW6</a></td>
                     <td>Quiz F</td>
                 </tr>
