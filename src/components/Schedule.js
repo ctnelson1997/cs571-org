@@ -52,7 +52,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Mar 6<br/></td>
-                    <td>React 5 & <strong>Midterm Exam</strong></td>
+                    <td>React 5 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week07/Week07-React5/week07-react5.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5sa650tg">(R)</a> & <strong>Midterm Exam</strong></td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
