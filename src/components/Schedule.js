@@ -64,7 +64,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Mar 20<br/></td>
-                    <td>React Native 1 & Mobile Design</td>
+                    <td>React Native 1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week09/Week09-ReactNative1/week09-reactnative1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_7tqjzmlo">(R1)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_80qbfbqn">(R2)</a> & Mobile Design</td>
                     <td><a href="https://github.com/CS571-S23/hw7">HW7</a></td>
                     <td>Quiz G</td>
                 </tr>
