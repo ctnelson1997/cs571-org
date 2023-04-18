@@ -82,13 +82,13 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 10<br/></td>
-                    <td>React Native 4 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week12/Week12-ReactNative4/week12-reactnative4.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ymx5rl6h">(R1)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_6l6844y9">(R2)</a> & Accessibility</td>
+                    <td>React Native 4 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week12/Week12-ReactNative4/week12-reactnative4.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ymx5rl6h">(R1)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_6l6844y9">(R2)</a> & Accessibility <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week12/Week12-Accessibility/week12-accessibility.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_pr7w4b2g">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw10">HW10</a></td>
                     <td>Quiz J</td>
                 </tr>
                 <tr>
                     <td>Apr 17<br/></td>
-                    <td>DialogFlow 1 & VUI Design/Exp. Prototyping</td>
+                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week13/Week13-DialogFlow/week13-dialogflow.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_tavcf1yj">(R)</a> & VUI Design/Exp. Prototyping</td>
                     <td><a href="https://github.com/CS571-S23/hw11">HW11</a></td>
                     <td>Quiz K</td>
                 </tr>
