@@ -7,7 +7,7 @@ export default function Schedule() {
         <Table striped bordered hover>
             <thead>
                 <tr>
-                    <th>Date</th>
+                    <th>Week Of</th>
                     <th>Topics</th>
                     <th>Homework</th>
                     <th>Quiz</th>
