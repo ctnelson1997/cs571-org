@@ -88,7 +88,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 17<br/></td>
-                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week13/Week13-DialogFlow/week13-dialogflow.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_tavcf1yj">(R)</a> & VUI Design/Exp. Prototyping</td>
+                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week13/Week13-DialogFlow/week13-dialogflow.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_tavcf1yj">(R)</a> & VUI Design/Exp. Prototyping <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week13/Week13-VUIExp/week13-vuiexp.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_2x4ckwqr">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw11">HW11</a></td>
                     <td>Quiz K</td>
                 </tr>
