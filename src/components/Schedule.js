@@ -105,7 +105,7 @@ export default function Schedule() {
                     <td>Bonus Quiz</td>
                 </tr>
                 <tr>
-                    <td>May 8<br/></td>
+                    <td>May 9<br/></td>
                     <td><strong>Final Exam</strong></td>
                     <td>No HW</td>
                     <td>No Quiz</td>
