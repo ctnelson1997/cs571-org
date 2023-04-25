@@ -94,7 +94,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 24<br/></td>
-                    <td>DialogFlow 2 & Agent Design/Usability Eval.</td>
+                    <td>DialogFlow 2 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week14/Week14-DialogFlow2/week14-dialogflow2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5ez6mcva">(R)</a> & Agent Design/Usability Eval.</td>
                     <td><a href="https://github.com/CS571-S23/hw12">HW12</a></td>
                     <td>Quiz L</td>
                 </tr>
