@@ -94,13 +94,13 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 24<br/></td>
-                    <td>DialogFlow 2 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week14/Week14-DialogFlow2/week14-dialogflow2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5ez6mcva">(R)</a> & Agent Design/Usability Eval.</td>
+                    <td>DialogFlow 2 <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week14/Week14-DialogFlow2/week14-dialogflow2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5ez6mcva">(R)</a> & Agent Design/Usability Eval. <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week14/Week14-AgentsAndEvaluation/week14-agentsandeval.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_omgm0xxk">(R)</a></td>
                     <td><a href="https://github.com/CS571-S23/hw12">HW12</a></td>
                     <td>Quiz L</td>
                 </tr>
                 <tr>
                     <td>May 1<br/></td>
-                    <td>Building Secure UIs & Fullstack Dev</td>
+                    <td>Building Secure UIs <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week15/Week15-BuildingSUIs/week15-suis.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_y8h5r36b">(R)</a> & Fullstack Dev</td>
                     <td>No HW</td>
                     <td>Bonus Quiz</td>
                 </tr>
