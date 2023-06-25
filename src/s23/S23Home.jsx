@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import Schedule from './components/Schedule';
-import About from './components/About';
+import S23About from './components/S23About';
+import S23Schedule from './components/S23Schedule';
 
-function App() {
+function S23Home() {
   return (
-    <div className='pad'>
+    <div class="pad">
       <Container>
         <Row>
           <h1>Welcome to CS571 S23!</h1>
         </Row>
         <Row>
           <Col xs={12} lg={6}>
-            <About />
+            <S23About />
           </Col>
           <Col xs={12} lg={6}>
-            <Schedule />
+            <S23Schedule />
           </Col>
         </Row>
       </Container>
@@ -24,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default S23Home;

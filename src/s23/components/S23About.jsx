@@ -1,4 +1,4 @@
-export default function About() {
+export default function S23About() {
     return <>
         <p>This class aims to introduce CS undergraduates to the wonderful world of <b>User Experience (UX) development.</b></p>
         <p>But what is UX development? Sometimes called front-end development, UX development is between traditional software development and UX design. Let’s hear about it from an <b>actual UX developer...</b></p>

@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 
-export default function Schedule() {
+export default function S23Schedule() {
     return <>
         <h2>Schedule</h2>
         <p>All course content is available <a href="https://github.com/CS571-S23">via GitHub Classroom!</a> You may download <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/syllabus_cs571_s23.pdf">the syllabus here.</a> Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
@@ -100,7 +100,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <td>May 1<br/></td>
-                    <td>Building Secure UIs <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week15/Week15-BuildingSUIs/week15-suis.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_y8h5r36b">(R)</a> & Fullstack Dev</td>
+                    <td>Building Secure UIs <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week15/Week15-BuildingSUIs/week15-suis.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_y8h5r36b">(R)</a> & Fullstack Dev <a target="_blank" href="https://github.com/CS571-S23/lectures/blob/main/Week15/Week15-FullstackDev/week15-fullstack.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ju5n7nhy">(R)</a></td>
                     <td>No HW</td>
                     <td>Bonus Quiz</td>
                 </tr>
