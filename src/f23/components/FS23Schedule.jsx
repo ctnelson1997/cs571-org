@@ -17,18 +17,18 @@ export default function F23Schedule() {
                 <tr>
                     <td>Sept 4<br/></td>
                     <td>Intro to CS571</td>
-                    <td><a href="https://github.com/CS571-F23/hw0">HW0</a> (1pt)</td>
+                    <td><a href="https://github.com/CS571-F23/hw0">HW0</a> (1 pt)</td>
                     <td>No Quiz</td>
                 </tr>
                 <tr>
                     <td>Sept 11<br/></td>
-                    <td>JavaScript 1 & JavaScript 2</td>
+                    <td>JavaScript 1 & Design Thinking</td>
                     <td><a href="https://github.com/CS571-F23/hw1">HW1</a></td>
                     <td>Quiz A</td>
                 </tr>
                 <tr>
                     <td>Sept 18<br/></td>
-                    <td>JavaScript 3 & Design Thinking</td>
+                    <td>JavaScript 2 & JavaScript 3</td>
                     <td><a href="https://github.com/CS571-F23/hw2">HW2</a></td>
                     <td>Quiz B</td>
                 </tr>
@@ -65,7 +65,7 @@ export default function F23Schedule() {
                 <tr>
                     <td>Oct 30<br/></td>
                     <td>React Native 1 & Prototyping</td>
-                    <td><a href="https://github.com/CS571-F23/hw7">HW7</a> (1pt)</td>
+                    <td><a href="https://github.com/CS571-F23/hw7">HW7</a> (1 pt)</td>
                     <td>Quiz G</td>
                 </tr>
                 <tr>
@@ -95,7 +95,7 @@ export default function F23Schedule() {
                 <tr>
                     <td>Dec 4<br/></td>
                     <td>FullStack Development & Expert Evaluation</td>
-                    <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (1pt)</td>
+                    <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (2 pts)</td>
                     <td>Quiz L</td>
                 </tr>
                 <tr>
@@ -125,8 +125,8 @@ export default function F23Schedule() {
             <tbody>
                 <tr>
                     <td>Weekly Assignments</td>
-                    <td>53</td>
-                    <td>10 HWs (5 pts) & 3 HWs (1 pt)</td>
+                    <td>54</td>
+                    <td>10 HWs (5 pts) & 3 HWs (1-2 pts each)</td>
                 </tr>
                 <tr>
                     <td>Weekly Quizzes</td>
@@ -142,11 +142,6 @@ export default function F23Schedule() {
                     <td>Final Exam</td>
                     <td>20</td>
                     <td>Double-sided notesheet</td>
-                </tr>
-                <tr>
-                    <td>Personal Project</td>
-                    <td>1</td>
-                    <td>A small personal project</td>
                 </tr>
             </tbody>
         </Table>
