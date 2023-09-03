@@ -4,7 +4,7 @@ import F23Schedule from './components/FS23Schedule';
 
 function F23Home() {
   return (
-    <div class="pad">
+    <div className="pad">
       <Container>
         <Row>
           <h1>Welcome to CS571 Fall 2023!</h1>

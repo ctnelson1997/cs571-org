@@ -1,5 +1,5 @@
 {
-  "name": "cs571-org",
+  "name": "@cs571/cs571-org",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,15 +12,20 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hook-form": "^7.45.4",
     "react-router": "^6.14.0",
-    "react-router-dom": "^6.14.0"
+    "react-router-dom": "^6.14.0",
+    "react-spinners": "^0.13.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
+    "@types/react-google-recaptcha": "^2.1.5",
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",

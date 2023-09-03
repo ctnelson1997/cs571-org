@@ -3,9 +3,14 @@ import './App.css'
 import F23Home from './f23/F23Home';
 import S23Home from './s23/S23Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AuthCenter from './site-wide/AuthCenter';
 import NoMatch from './site-wide/NoMatch';
 import HomeNav from './site-wide/HomeNav';
+import BadgerAuthLanding from './badgerauth/BadgerAuthLanding';
+import BadgerAuthHome from './badgerauth/BadgerAuthHome';
+import BadgerAuthConfirmation from './badgerauth/BadgerAuthConfirmation';
+import BadgerAuthManage from './badgerauth/BadgerAuthManage';
+import BadgerAuthLoginBadgerId from './badgerauth/BadgerAuthLoginBadgerId';
+import BadgerAuthLogoutBadgerId from './badgerauth/BadgerAuthLogoutBadgerId';
 
 function App() {
   return <BrowserRouter>
@@ -14,7 +19,13 @@ function App() {
         <Route index element={<F23Home />} />
         <Route path="f23" element={<F23Home />} />
         <Route path="s23" element={<S23Home />} />
-        <Route path="auth" element={<AuthCenter />} />
+        <Route path="auth" element={<BadgerAuthLanding />}>
+          <Route index element={<BadgerAuthHome />}/>
+          <Route path="otp" element={<BadgerAuthConfirmation/>}/>
+          <Route path="manage" element={<BadgerAuthManage/>}/>
+          <Route path="login" element={<BadgerAuthLoginBadgerId/>}/>
+          <Route path="logout" element={<BadgerAuthLogoutBadgerId/>}/>
+        </Route>
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
