@@ -7,4 +7,10 @@ npm install
 npm run dev
 ```
 
-prod todo
+prod
+
+```
+npm run build
+```
+
+Use winscp to drag & drop to `/var/www/html`.
