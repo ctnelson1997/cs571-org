@@ -75,9 +75,9 @@ function BadgerAuthCreateModal({
         if (res.status === 200) {
             addToast({
                 title: "Success!",
-                body: "Successfully created a new Badger ID!",
+                body: "Successfully created a new Badger ID! It may take up to 10 minutes for this to be usable.",
                 variant: "success",
-                lifespan: 5
+                lifespan: 10
             })
             close();
         } else if (res.status === 401) {

@@ -23,7 +23,7 @@ function BadgerAuthLoginBadgerId() {
 
     useEffect(() => {
         (async () => {
-            const res = await fetch("https://cs571.org/api/auth/what-is-my-bid", {
+            const res = await fetch("https://cs571.org/api/auth/what-is-my-bid?cache=false", {
                 method: "GET",
                 credentials: "include"
             })

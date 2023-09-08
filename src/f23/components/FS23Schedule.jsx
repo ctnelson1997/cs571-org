@@ -16,7 +16,7 @@ export default function F23Schedule() {
             <tbody>
                 <tr>
                     <td>Sept 4<br/></td>
-                    <td>Intro to CS571 <a href="https://drive.google.com/file/d/1gAl80JxQgcywQi_t8lpuDQ9L8IhuqRnp/view?usp=sharing" target="_blank">(N)</a> <a href="https://mediaspace.wisc.edu/media/CS571-Introduction+%28SEC+001%29+Yuhang+Zhao-Science+180-09+07+23-11A00A48/1_ljdx1m38" target="_blank">(R)</a></td>
+                    <td>Intro to CS571 <a href="https://drive.google.com/file/d/1gAl80JxQgcywQi_t8lpuDQ9L8IhuqRnp/view?usp=sharing" target="_blank">(N-11a)</a> <a href="https://mediaspace.wisc.edu/media/CS571-Introduction+%28SEC+001%29+Yuhang+Zhao-Science+180-09+07+23-11A00A48/1_ljdx1m38" target="_blank">(R-11a)</a> <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week01/Week01-Intro/week01-intro.pdf">(N-4p)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_c2vu9su2">(R-4p)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw0">HW0</a> (1 pt)</td>
                     <td>No Quiz</td>
                 </tr>
