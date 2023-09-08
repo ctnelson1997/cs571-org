@@ -16,7 +16,7 @@ export default function F23Schedule() {
             <tbody>
                 <tr>
                     <td>Sept 4<br/></td>
-                    <td>Intro to CS571</td>
+                    <td>Intro to CS571 <a href="https://drive.google.com/file/d/1gAl80JxQgcywQi_t8lpuDQ9L8IhuqRnp/view?usp=sharing" target="_blank">(N)</a> <a href="https://mediaspace.wisc.edu/media/CS571-Introduction+%28SEC+001%29+Yuhang+Zhao-Science+180-09+07+23-11A00A48/1_ljdx1m38" target="_blank">(R)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw0">HW0</a> (1 pt)</td>
                     <td>No Quiz</td>
                 </tr>
