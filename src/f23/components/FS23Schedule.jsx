@@ -28,7 +28,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Sept 18<br/></td>
-                    <td>JavaScript 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week03/Week03-JS2/week03-js2.pdf">(N)</a> & JavaScript 3</td>
+                    <td>JavaScript 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week03/Week03-JS2/week03-js2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_pizuie3v"></a> & JavaScript 3</td>
                     <td><a href="https://github.com/CS571-F23/hw2">HW2</a></td>
                     <td>Quiz B</td>
                 </tr>
