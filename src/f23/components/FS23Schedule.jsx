@@ -22,13 +22,13 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Sept 11<br/></td>
-                    <td>JavaScript 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week02/Week02-JS1/week02-js1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_e9wrk05v">(R-11a)</a> & Design Thinking <a target="_blank" href="https://drive.google.com/file/d/10bpCdFZYpOG3rq4BRQg2WU_ieZ3TgvPM/view?usp=sharing">(N)</a> <a target="_blank" href="https://mediaspace.wisc.edu/media/Clip+of+Yuhang+Zhao-Science+180-09+14+23-10A57A10/1_p3lt6cxj">(R)</a></td>
+                    <td>JavaScript 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week02/Week02-JS1/week02-js1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_e9wrk05v">(R)</a> & Design Thinking <a target="_blank" href="https://drive.google.com/file/d/10bpCdFZYpOG3rq4BRQg2WU_ieZ3TgvPM/view?usp=sharing">(N)</a> <a target="_blank" href="https://mediaspace.wisc.edu/media/Clip+of+Yuhang+Zhao-Science+180-09+14+23-10A57A10/1_p3lt6cxj">(R)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw1">HW1</a></td>
                     <td>Quiz A</td>
                 </tr>
                 <tr>
                     <td>Sept 18<br/></td>
-                    <td>JavaScript 2 & JavaScript 3</td>
+                    <td>JavaScript 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week03/Week03-JS2/week03-js2.pdf">(N)</a> & JavaScript 3</td>
                     <td><a href="https://github.com/CS571-F23/hw2">HW2</a></td>
                     <td>Quiz B</td>
                 </tr>
