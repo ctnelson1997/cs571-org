@@ -1,4 +1,4 @@
-import { Container, Nav, NavDropdown, Navbar, Toast, ToastContainer } from "react-bootstrap";
+import { Alert, Container, Nav, NavDropdown, Navbar, Toast, ToastContainer } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
 import useSpinner from '../hooks/UseSpinner'
@@ -58,6 +58,7 @@ const HomeNav = (props) => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        <Alert variant='warning'><a href="https://www.cs571.org/">cs571.org</a> will be taken down between 9 and 11 pm CT on Wednesday, Sept 20th for planned maintenance. The website and/or APIs may be unresponsive during this time.</Alert>
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>
