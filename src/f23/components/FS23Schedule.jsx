@@ -40,7 +40,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Oct 2<br/></td>
-                    <td>React 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week05/Week05-React2/week05-react2.pdf">(N)</a> & Web/Interaction Design</td>
+                    <td>React 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week05/Week05-React2/week05-react2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_mtr1zl7f">(R)</a> & Web/Interaction Design</td>
                     <td><a href="https://github.com/CS571-F23/hw4">HW4</a></td>
                     <td>Quiz D</td>
                 </tr>
