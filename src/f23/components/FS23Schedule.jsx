@@ -52,7 +52,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Oct 16<br/></td>
-                    <td>React 4 & Accessibility</td>
+                    <td>React 4 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week07/Week07-React4/week07-react4.pdf">(N)</a>& Accessibility</td>
                     <td><a href="https://github.com/CS571-F23/hw6">HW6</a></td>
                     <td>Quiz F</td>
                 </tr>
