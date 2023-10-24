@@ -58,7 +58,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Oct 23<br/></td>
-                    <td>React 5 & <strong>Midterm Exam</strong></td>
+                    <td>React 5 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week08/Week08-React5/week08-react5.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_6mi8zvp5">(R)</a> & <strong>Midterm Exam</strong></td>
                     <td>No HW</td>
                     <td>No Quiz</td>
                 </tr>
