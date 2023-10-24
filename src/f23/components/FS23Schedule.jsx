@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 export default function F23Schedule() {
     return <>
         <h2>Schedule</h2>
-        <p>All course content is available <a href="https://github.com/CS571-F23">via GitHub Classroom!</a> You may download <a target="_blank">the syllabus TBD.</a> Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
+        <p>All course content is available <a href="https://github.com/CS571-F23">via GitHub Classroom!</a> You may download <a target="_blank" href="https://github.com/ctnelson1997/cs571-org/blob/master/cs571_f23_syllabus.pdf">the syllabus here</a>. Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
         <Table striped bordered hover>
             <thead>
                 <tr>
