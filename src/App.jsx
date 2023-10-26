@@ -11,6 +11,8 @@ import BadgerAuthConfirmation from './badgerauth/BadgerAuthConfirmation';
 import BadgerAuthManage from './badgerauth/BadgerAuthManage';
 import BadgerAuthLoginBadgerId from './badgerauth/BadgerAuthLoginBadgerId';
 import BadgerAuthLogoutBadgerId from './badgerauth/BadgerAuthLogoutBadgerId';
+import TimerHolder from './site-wide/timer/TimerHolder'
+
 
 function App() {
   return <BrowserRouter>
@@ -26,6 +28,7 @@ function App() {
           <Route path="login" element={<BadgerAuthLoginBadgerId/>}/>
           <Route path="logout" element={<BadgerAuthLogoutBadgerId/>}/>
         </Route>
+        <Route path="exam-timer" element={<TimerHolder/>}/>
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
