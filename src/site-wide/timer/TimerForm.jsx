@@ -33,7 +33,7 @@ export default function TimerForm(props) {
       }, []);
 
     const begin = (tm, rnd, tmDn) => {
-        tm = tm ? tm : 60;
+        tm = tm ? tm : 0;
         const currDate = new Date();
         currDate.setMilliseconds(0);
         const mins = tmDn === 'minutes' ? tm : tm * 60;
