@@ -1,14 +1,27 @@
-import { useCallback, useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 export default function TimerGo(props) {
 
+    const [endDt, setEndDt] = useState(props.endDt);
     const [dt, setDt] = useState(new Date());
     const [fontSize, setFontSize] = useState(window.innerWidth / 14);
 
+    const [isPaused, setIsPaused] = useState(false);
+    const pauseListener = useMemo(() => [isPaused], []);
+    useEffect(() => {
+        pauseListener[0] = isPaused
+    }, [isPaused]);
+
     useEffect(() => {
         setInterval(() => {
-            setDt(new Date());
+            setDt(old => {
+                const currDt = new Date();
+                if (pauseListener[0]) {
+                    setEndDt(oldEnd => new Date(oldEnd.getTime() + (currDt.getTime() - old.getTime())))
+                }
+                return currDt;
+            });
         }, 100)
     }, [])
 
@@ -28,6 +41,14 @@ export default function TimerGo(props) {
         };
     }, []);
 
+    function pause() {
+        setIsPaused(true)
+    }
+
+    function unpause() {
+        setIsPaused(false)
+    }
+
     // ChatGPT
     const millisecondsToHMS = useCallback((ms) => {
         const seconds = Math.floor(ms / 1000);
@@ -42,10 +63,18 @@ export default function TimerGo(props) {
         return `${formattedHours}:${formattedMinutes}` + ((props.showSeconds || (hours === 0 && minutes === 0)) ? `:${formattedSeconds}` : '');
     }, [props])
 
-    let rmMs = new Date(props.endDt.getTime() - dt.getTime() + 1000);
+    let rmMs = new Date(endDt.getTime() - dt.getTime() + 1000);
     const isOver = rmMs < 0;
 
     return <div>
+        {
+            isOver ? <></> : (
+                isPaused ?
+                    <Button style={{ position: "fixed", top: "1rem", right: "1rem" }} variant="secondary" onClick={unpause}>Unpause</Button> :
+                    <Button style={{ position: "fixed", top: "1rem", right: "1rem" }} onClick={pause}>Pause</Button>
+            )
+        }
+
         {
             isOver ? <>
                 <h1 style={{ fontWeight: 600, marginBottom: "2rem", color: "darkred", fontSize: fontSize / 1.25 }}>The exam has concluded.</h1>
@@ -57,7 +86,7 @@ export default function TimerGo(props) {
                         </Col>
                         <Col xs={12} sm={6}>
                             <p style={{ fontSize: fontSize / 3 }}>The exam ended at...</p>
-                            <h2 style={{ fontSize: fontSize / 2 }}>{props.endDt.toLocaleTimeString()}</h2>
+                            <h2 style={{ fontSize: fontSize / 2 }}>{endDt.toLocaleTimeString()}</h2>
                         </Col>
                     </Row>
                     <Row style={{ marginTop: "3rem" }}>
@@ -66,7 +95,7 @@ export default function TimerGo(props) {
                     </Row>
                 </Container>
             </> : <>
-                <h1 style={{ fontWeight: 300, marginBottom: "2rem" }}>The exam is in progress.</h1>
+                <h1 style={{ fontWeight: 300, marginBottom: "2rem" }}>{isPaused ? <strong>The exam has been paused.</strong> : "The exam is in progress."}</h1>
                 <Container>
                     <Row>
                         <Col xs={12} sm={6}>
@@ -75,7 +104,7 @@ export default function TimerGo(props) {
                         </Col>
                         <Col xs={12} sm={6}>
                             <p style={{ fontSize: fontSize / 3 }}>The exam will end at...</p>
-                            <h2 style={{ fontSize: fontSize / 2 }}>{props.endDt.toLocaleTimeString()}</h2>
+                            <h2 style={{ fontSize: fontSize / 2 }}>{endDt.toLocaleTimeString()}</h2>
                         </Col>
                     </Row>
                     <Row style={{ marginTop: "3rem" }}>
