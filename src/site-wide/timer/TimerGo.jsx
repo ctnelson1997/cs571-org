@@ -39,8 +39,8 @@ export default function TimerGo(props) {
         const formattedMinutes = String(minutes).padStart(2, '0');
         const formattedSeconds = String(remainingSeconds).padStart(2, '0');
 
-        return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-    }, [])
+        return `${formattedHours}:${formattedMinutes}` + ((props.showSeconds || (hours === 0 && minutes === 0)) ? `:${formattedSeconds}` : '');
+    }, [props])
 
     let rmMs = new Date(props.endDt.getTime() - dt.getTime() + 1000);
     const isOver = rmMs < 0;
