@@ -65,7 +65,7 @@ export default function F23Schedule() {
                 <tr>
                     <td>Oct 30<br/></td>
                     <td>React Native 1 & Prototyping</td>
-                    <td><a href="https://github.com/CS571-F23/hw7">HW7</a> (1 pt)</td>
+                    <td><a href="https://github.com/CS571-F23/hw7">HW7</a></td>
                     <td>Quiz G</td>
                 </tr>
                 <tr>
@@ -83,7 +83,7 @@ export default function F23Schedule() {
                 <tr>
                     <td>Nov 20<br/></td>
                     <td>DialogFlow 1 & <strong>Thanksgiving</strong></td>
-                    <td><a href="https://github.com/CS571-F23/hw10">HW10</a></td>
+                    <td><a href="https://github.com/CS571-F23/hw10">HW10</a> (2 pts)</td>
                     <td>Quiz J</td>
                 </tr>
                 <tr>
@@ -95,7 +95,7 @@ export default function F23Schedule() {
                 <tr>
                     <td>Dec 4<br/></td>
                     <td>FullStack Development & Expert Evaluation</td>
-                    <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (2 pts)</td>
+                    <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (1 pt)</td>
                     <td>Quiz L</td>
                 </tr>
                 <tr>
