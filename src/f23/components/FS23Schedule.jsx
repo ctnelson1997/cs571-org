@@ -64,7 +64,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Oct 30<br/></td>
-                    <td>React Native 1 & Prototyping</td>
+                    <td>React Native 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week09/Week09-ReactNative1/week09-reactnative1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_04wg1cfh">(R)</a> & Prototyping</td>
                     <td><a href="https://github.com/CS571-F23/hw7">HW7</a></td>
                     <td>Quiz G</td>
                 </tr>
