@@ -63,6 +63,7 @@ const HomeNav = (props) => {
                     </Container>
                 </Navbar>
         }
+        <Alert variant='warning'><a href="https://www.cs571.org/">cs571.org</a> will be taken down between 9 and 11 pm CT on Thursday, Nov 2nd for planned maintenance. The website and/or APIs may be unresponsive during this time.</Alert>
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>
