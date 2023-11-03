@@ -12,6 +12,7 @@ import BadgerAuthManage from './badgerauth/BadgerAuthManage';
 import BadgerAuthLoginBadgerId from './badgerauth/BadgerAuthLoginBadgerId';
 import BadgerAuthLogoutBadgerId from './badgerauth/BadgerAuthLogoutBadgerId';
 import TimerHolder from './site-wide/timer/TimerHolder'
+import S24Home from './s24/S24Home';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomeNav/>}>
         <Route index element={<F23Home />} />
+        <Route path="s24" element={<S24Home />} />
         <Route path="f23" element={<F23Home />} />
         <Route path="s23" element={<S23Home />} />
         <Route path="auth" element={<BadgerAuthLanding />}>
