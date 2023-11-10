@@ -70,7 +70,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Nov 6<br/></td>
-                    <td>React Native 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week10/Week10-ReactNative2/week10-reactnative2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_30t9q3q6">(R)</a> & Mobile Design</td>
+                    <td>React Native 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week10/Week10-ReactNative2/week10-reactnative2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_30t9q3q6">(R)</a> & Mobile Design <a target="_blank" href="https://drive.google.com/file/d/1CeQcWGw9JAw3aXbAakmUsN6e7eD9PfEN/view?usp=sharing">(N)</a> <a target="_blank" href="https://mediaspace.wisc.edu/media/Yuhang+Zhao-Educational+Sciences+204-11+09+23-15A55A28/1_e0bwtf1s">(R)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw8">HW8</a></td>
                     <td>Quiz H</td>
                 </tr>
