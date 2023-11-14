@@ -76,7 +76,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Nov 13<br/></td>
-                    <td>React Native 3 & VUI Design/Exp Prototyping</td>
+                    <td>React Native 3 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week11/Week11-ReactNative3/week11-reactnative3.pdf">(N)</a> & VUI Design/Exp Prototyping</td>
                     <td><a href="https://github.com/CS571-F23/hw9">HW9</a></td>
                     <td>Quiz I</td>
                 </tr>
