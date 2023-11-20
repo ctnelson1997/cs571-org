@@ -76,13 +76,13 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Nov 13<br/></td>
-                    <td>React Native 3 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week11/Week11-ReactNative3/week11-reactnative3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_zk0lovnu">(R)</a> & VUI Design/Exp Prototyping</td>
+                    <td>React Native 3 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week11/Week11-ReactNative3/week11-reactnative3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_zk0lovnu">(R)</a> & VUI Design/Exp Prototyping <a target="_blank" href="https://drive.google.com/file/d/1E2Zfp3IDfa18Ay_hbFh6H5zh3otxtn4W/view">(N)</a> <a target="_blank" href="https://mediaspace.wisc.edu/media/Yuhang+Zhao-Science+180-11+16+23-10A56A20/1_0h91cwek">(R)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw9">HW9</a></td>
                     <td>Quiz I</td>
                 </tr>
                 <tr>
                     <td>Nov 20<br/></td>
-                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week12/Week12-DialogFlow1/week12-dialogflow1.pdf">(N)</a>  & <strong>Thanksgiving</strong></td>
+                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week12/Week12-DialogFlow1/week12-dialogflow1.pdf">(N)</a> & <strong>Thanksgiving</strong></td>
                     <td><a href="https://github.com/CS571-F23/hw10">HW10</a> (2 pts)</td>
                     <td>Quiz J</td>
                 </tr>
