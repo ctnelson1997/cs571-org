@@ -82,7 +82,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Nov 20<br/></td>
-                    <td>DialogFlow 1 & <strong>Thanksgiving</strong></td>
+                    <td>DialogFlow 1 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week12/Week12-DialogFlow1/week12-dialogflow1.pdf">(N)</a>  & <strong>Thanksgiving</strong></td>
                     <td><a href="https://github.com/CS571-F23/hw10">HW10</a> (2 pts)</td>
                     <td>Quiz J</td>
                 </tr>
