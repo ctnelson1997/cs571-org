@@ -88,7 +88,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Nov 27<br/></td>
-                    <td>DialogFlow 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week13/Week13-DialogFlow2/week13-dialogflow2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_2f3gkrg5">(R)</a> & User Evaluation/Agency</td>
+                    <td>DialogFlow 2 <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week13/Week13-DialogFlow2/week13-dialogflow2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_2f3gkrg5">(R)</a> & User Evaluation/Agency <a target="_blank" href="https://drive.google.com/file/d/1Ed8ktDauv-p7dBJIbwpJTPVwj9o6dccB/view?usp=drivesdk">(N)</a> <a target="_blank" href="https://mediaspace.wisc.edu/media/Yuhang%20Zhao-Science%20180-11_30_23-11%3A01%3A25/1_ryocb57o">(R)</a></td>
                     <td><a href="https://github.com/CS571-F23/hw11">HW11</a></td>
                     <td>Quiz K</td>
                 </tr>
