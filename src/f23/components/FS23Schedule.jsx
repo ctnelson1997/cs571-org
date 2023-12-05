@@ -94,7 +94,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Dec 4<br/></td>
-                    <td>FullStack Development & Expert Evaluation</td>
+                    <td>FullStack Development <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week14/Week14-FullstackDev/week14-fullstack.pdf">(N)</a> & Expert Evaluation</td>
                     <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (1 pt)</td>
                     <td>Quiz L</td>
                 </tr>
