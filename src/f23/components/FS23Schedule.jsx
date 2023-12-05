@@ -94,7 +94,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Dec 4<br/></td>
-                    <td>FullStack Development <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week14/Week14-FullstackDev/week14-fullstack.pdf">(N)</a> & Expert Evaluation</td>
+                    <td>FullStack Development <a target="_blank" href="https://github.com/CS571-F23/lectures/blob/main/Week14/Week14-FullstackDev/week14-fullstack.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_1n18zyn6">(R)</a> & Expert Evaluation</td>
                     <td><a href="https://github.com/CS571-F23/hw12">HW12</a> (1 pt)</td>
                     <td>Quiz L</td>
                 </tr>
