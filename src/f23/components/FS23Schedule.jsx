@@ -100,7 +100,7 @@ export default function F23Schedule() {
                 </tr>
                 <tr>
                     <td>Dec 11<br/></td>
-                    <td>Professor's Choice & <strong>Study Day</strong></td>
+                    <td>Secure User Interfaces & <strong>Study Day</strong></td>
                     <td>No HW</td>
                     <td>Bonus Quiz</td>
                 </tr>
