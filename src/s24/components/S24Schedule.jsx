@@ -3,7 +3,6 @@ import { Table } from "react-bootstrap";
 export default function S24Schedule() {
     return <>
         <h2>Schedule</h2>
-        <strong>All content is tentative!</strong>
         <p>All course content is available <a href="https://github.com/CS571-S24">via GitHub Classroom!</a> You may download the syllabus TBD. Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
         <Table striped bordered hover>
             <thead>

@@ -53,6 +53,7 @@ const HomeNav = (props) => {
                                     <NavDropdown.Item as={Link} to="/auth">Manage BadgerIDs</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Past Semesters">
+                                    <NavDropdown.Item as={Link} to="/f23">Fall 2023</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/s23">Spring 2023</NavDropdown.Item>
                                     <NavDropdown.Item href="https://cs571.github.io/Spring22/" target="_blank">Spring 2022</NavDropdown.Item>
                                     <NavDropdown.Item href="https://hci-curriculum-uwmadison.github.io/CS571/" target="_blank">Fall 2021</NavDropdown.Item>

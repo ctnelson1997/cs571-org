@@ -19,7 +19,7 @@ function App() {
   return <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomeNav/>}>
-        <Route index element={<F23Home />} />
+        <Route index element={<S24Home />} />
         <Route path="s24" element={<S24Home />} />
         <Route path="f23" element={<F23Home />} />
         <Route path="s23" element={<S23Home />} />

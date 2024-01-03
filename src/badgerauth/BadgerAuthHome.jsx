@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState, useRef } from "react";
-import { Button, Form } from "react-bootstrap";
+import { Alert, Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
 import useSpinner from "../hooks/UseSpinner";
@@ -12,7 +12,7 @@ function BadgerAuthHome(props) {
 
     const captchaRef = useRef(null);
 
-    const EMAIL_REGEX = /^.*@(cs\.)?wisc\.edu$/;
+    const EMAIL_REGEX = /^.*\.edu$/;
 
     const navigate = useNavigate();
 
@@ -87,12 +87,12 @@ function BadgerAuthHome(props) {
     }, [])
 
     return <div>
+        <Alert variant="warning">The system currently only accepts <strong>wisc.edu</strong> email addresses. We are working on making CS571 available <a target="_blank" href="https://cs571forall.org/"><em>for all</em> .edu addresses.</a></Alert>
         <p>Use this area to manage the Badger ID(s) associated with your account.</p>
-        <p>Please note that Badger IDs currently <em>cannot</em> be generated for the Spring 2023 semester. If you would like access to this legacy API, please contact the instructional team.</p>
-        <p>Please note that due to hosting constraints, Fall 2023 Badger IDs can only be generated for University of Wisconsin-Madison students. Another version of this website will be publically available at the end of the semester at <a href="http://cs571forall.org/">cs571forall.org</a>.</p>
+        <p>Anyone with an <strong>.edu</strong> email address can generate Badger ID(s)! Don't have an educational email address but still interested in taking the class? <a target="_blank" href="">Join our waitlist here!</a></p>
         <hr></hr>
         <Form style={{ marginBottom: "0.5rem" }} onSubmit={handleSubmit(manageBids)}>
-            <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your wisc email address?</Form.Label>
+            <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your educational email address?</Form.Label>
             <Form.Control
                 id="email"
                 type="email"
@@ -105,23 +105,9 @@ function BadgerAuthHome(props) {
                     onBlur: () => setBlurred(true),
                 })}
             ></Form.Control>
-            {errors.email && <p style={{ color: "maroon" }}>Please enter a valid Wisconsin email address.</p>}
+            {errors.email && <p style={{ color: "maroon" }}>Please enter a valid <strong>.edu</strong> email address.</p>}
             {email && blurred && email.match(EMAIL_REGEX) && <sub>A confirmation email will be sent to <strong>{email}</strong>.</sub>}
             {!errors.email && <p></p>}
-            <Form.Label htmlFor="sem" style={{ marginBottom: "0.25rem" }}>Please choose your semester.</Form.Label>
-            <Form.Select
-                id="sem"
-                {...register('semester', {
-                    required: "true",
-                    pattern: /^Fall 2023$/
-                })}
-            >
-                <option defaultValue={true}>Choose your semester...</option>
-                <option disabled={true}>Spring 2023</option>
-                <option>Fall 2023</option>
-            </Form.Select>
-            {errors.semester && <p style={{ color: "maroon" }}>Please choose a semester.</p>}
-            {!errors.semester && <br />}
             <Recaptcha
                 onChange={(token) => {
                     if (token) {
