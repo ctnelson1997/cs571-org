@@ -47,7 +47,7 @@ const HomeNav = (props) => {
                         </Navbar.Brand>
                         <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
                             <Nav>
-                                <Nav.Link as={Link} to="/f23">Home</Nav.Link>
+                                <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 <NavDropdown title="BadgerAuth">
                                     <NavDropdown.Item as={Link} to="/auth/login">Use BadgerID</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/auth">Manage BadgerIDs</NavDropdown.Item>
@@ -64,6 +64,7 @@ const HomeNav = (props) => {
                     </Container>
                 </Navbar>
         }
+        <Alert variant="success"><strong>New!</strong> Not a UW Student? You can still get access! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>

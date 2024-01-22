@@ -64,7 +64,7 @@ function BadgerAuthLoginBadgerId() {
     }
 
     return <>
-        <p>To use the APIs for CS571, please enter your Badger ID below. A Badger ID starts with <strong>bid_</strong> followed by many hexidecimal characters. You should have recieved this ID via email from <strong>uw.cs571@gmail.com</strong>. Be sure to check your spam/junk folder.</p>
+        <p>To use the APIs for CS571, please enter your Badger ID below. A Badger ID starts with <strong>bid_</strong> or <strong>bid_fa_</strong> followed by many hexidecimal characters. You should have recieved this ID via email from <strong>uw.cs571@gmail.com</strong>. Be sure to check your spam/junk folder.</p>
         <p>If you did not recieve this ID, you can issue one by clicking <Link to="/auth/manage">BadgerAuth &gt; Manage BadgerIDs</Link>. If you continue to have issues, please contact instructional staff.</p>
         <Form onSubmit={handleSubmit(submit)}>
             <Form.Control
@@ -75,7 +75,7 @@ function BadgerAuthLoginBadgerId() {
                 autoCorrect="off"
                 {...register('badgerId', {
                     required: true,
-                    pattern: /^bid_[0-9a-fA-F]{64}$/,
+                    pattern: /^bid_(fa_)?[0-9a-fA-F]{64}$/,
                     onChange: (e) => setBadgerId(e.target.value)
                 })}></Form.Control>
             {errors.badgerId && <p style={{ color: "maroon" }}>Please enter a valid Badger ID.</p>}

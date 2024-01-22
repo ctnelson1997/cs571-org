@@ -28,7 +28,7 @@ function BadgerAuthCard(props) {
         {
             isShowingBid ?
             <Form.Control type="text" disabled={true} value={props.bid} aria-label="Badger ID Value"></Form.Control> : 
-            <Form.Control type="text" disabled={true} value="bid_*****************" aria-label="Badger ID Value"></Form.Control>
+            <Form.Control type="text" disabled={true} value="*****************" aria-label="Badger ID Value"></Form.Control>
         }
         <div style={{marginTop: "0.5rem", display: "inline-flex"}}>
             <Button variant="secondary" title="Reveal" aria-label="Reveal Badger ID" onClick={() => setIsShowingBid(b => !b)} style={{marginRight: "0.5rem"}}>👁</Button>

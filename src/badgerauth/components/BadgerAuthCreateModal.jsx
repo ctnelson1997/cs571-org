@@ -109,7 +109,7 @@ function BadgerAuthCreateModal({
             <Modal.Header>
                 <h2>Create New Badger ID</h2>
             </Modal.Header>
-            <p style={{marginTop:"0.25rem"}}>Issue a new Badger ID by optionally specifying a nickname (e.g. Meta Recruiter) and expiration time (e.g. 2 weeks).</p>
+            <p style={{marginTop:"0.25rem"}}>Issue a new Badger ID by optionally specifying a nickname (e.g. My Temp Token) and expiration time (e.g. 2 weeks).</p>
             <Form onSubmit={handleSubmit(create)}>
                 <Form.Label htmlFor="nickname">Nickname (Optional)</Form.Label>
                 <Form.Control

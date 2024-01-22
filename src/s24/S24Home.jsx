@@ -6,8 +6,6 @@ function S24Home() {
   return (
     <div className="pad">
       <Container>
-        <Alert variant='warning'><strong>Welcome to CS571: Building User Interfaces!</strong> Please note that all content below is <em>tentative</em>. We are still making final decisions for the Spring 2024 semester. We look forward to having you in the class! :)</Alert>
-
         <Row>
           <h1>Welcome to CS571 Spring 2024!</h1>
         </Row>

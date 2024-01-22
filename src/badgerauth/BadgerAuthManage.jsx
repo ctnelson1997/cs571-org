@@ -91,9 +91,9 @@ function BadgerAuthManage(props) {
     }
 
     return <div>
-        <p>Manage your Badger IDs below. Typically, students only use one Badger ID throughout the semester. However, in the event that your Badger ID becomes compromised, or you want to issue a temporary ID to a recruiter, you may do so below.</p>
-        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system.</p>
-        <p>If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned from <a href="https://cs571.org">cs571.org</a>.</p>
+        <p>Manage your Badger IDs below. Typically, students only use one Badger ID throughout the semester. Badger IDs start with <strong>bid_</strong> for UW-Madison students, and <strong>bid_fa_</strong> for all other students.</p>
+        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system. If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned from <a href="https://cs571.org">cs571.org</a>.</p>
+        <p>After issuing a Badger ID, you will need to use it by visiting <a target="_blank" href="https://www.cs571.org/auth/login">BadgerAuth - Use BadgerID</a>.</p>
         <h2>Your Badger IDs</h2>
         <div>
             <Button variant="success" onClick={openCreateModal}>Create New Badger ID</Button>
