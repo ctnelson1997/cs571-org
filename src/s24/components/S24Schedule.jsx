@@ -17,9 +17,9 @@ export default function S24Schedule() {
                 <tr>
                     <td>Jan 22<br/></td>
                     <td>Intro to CS571 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week01-intro.pdf
-">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5rxz0lfq">(R)</a> & Design Thinking</td>
+">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5rxz0lfq">(R)</a> & Design Thinking <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week01-design.pdf">(N)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw0">HW0</a> (1 pt)</td>
-                    <td>ICA A</td>
+                    <td><a target="_blank" href="https://docs.google.com/document/d/1vLk_k7fIKkPmC2Y4zYifXs44i2ePNKzPct9ADNxsHNY/edit?usp=sharing">ICA A</a></td>
                 </tr>
                 <tr>
                     <td>Jan 29<br/></td>
