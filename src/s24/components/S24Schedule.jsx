@@ -23,7 +23,8 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Jan 29<br/></td>
-                    <td>Web Dev Basics 1 & Web Dev Basics 2</td>
+                    <td>Web Dev Basics 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week02-webdevbasics1.pdf
+">(N)</a> & Web Dev Basics 2</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw1">HW1</a></td>
                     <td>No ICA</td>
                 </tr>
