@@ -33,7 +33,6 @@ function BadgerAuthHome(props) {
     const spinner = useContext(SpinnerContext);
 
     const handleBlur = () => {
-        console.log("I was called!")
         fetch("https://cs571.org/api/auth/email-allow?email=" + email)
         .then(res => res.json())
         .then(d => {

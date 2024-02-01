@@ -54,8 +54,6 @@ function BadgerAuthCreateModal({
     }
 
     const calculateExpDate = () => {
-        console.log(expTime)
-        console.log(MS_TIME_MAPPER[expTimeUnit])
         return new Date(new Date().getTime() + (MS_TIME_MAPPER[expTimeUnit] * expTime))
     }
 
