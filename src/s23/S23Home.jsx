@@ -1,10 +1,11 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Alert, Col, Container, Row } from 'react-bootstrap';
 import S23About from './components/S23About';
 import S23Schedule from './components/S23Schedule';
 
 function S23Home() {
   return (
     <div class="pad">
+      <Alert variant='warning'><strong>The Spring 2023 APIs have been retired.</strong> Please see a newer semester of the course.</Alert>
       <Container>
         <Row>
           <h1>Welcome to CS571 S23!</h1>

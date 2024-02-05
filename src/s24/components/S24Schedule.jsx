@@ -23,7 +23,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Jan 29<br/></td>
-                    <td>Web Dev Basics 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week02-webdevbasics1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_p0a2ngtu">(R)</a> & Web Dev Basics 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week02-webdevbasics2.pdf">(N)</a></td>
+                    <td>Web Dev Basics 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week02-webdevbasics1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_p0a2ngtu">(R)</a> & Web Dev Basics 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week02-webdevbasics2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_qpno2w6n">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw1">HW1</a></td>
                     <td>No ICA</td>
                 </tr>
