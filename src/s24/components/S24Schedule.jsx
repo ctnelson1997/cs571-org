@@ -29,7 +29,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 5<br/></td>
-                    <td>Web Dev Basics 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week03-webdevbasics3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_74f6bxoy">(R)</a> & Visual Design</td>
+                    <td>Web Dev Basics 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week03-webdevbasics3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_74f6bxoy">(R)</a> & Visual Design <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week03-visual-design.pdf">(N)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw2">HW2</a></td>
                     <td>ICA B</td>
                 </tr>
