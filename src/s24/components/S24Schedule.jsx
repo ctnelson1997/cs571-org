@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 export default function S24Schedule() {
     return <>
         <h2>Schedule</h2>
-        <p>All course content is available <a href="https://github.com/CS571-S24">via GitHub Classroom!</a> You may download <a target="_blank" href="https://github.com/ctnelson1997/cs571-org/blob/master/cs571_s24_syllabus.pdf">the syllabus here</a>. Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
+        <p>All course content is available <a href="https://github.com/CS571-S24">via GitHub Classroom!</a> You may download <a target="_blank" href="https://raw.githubusercontent.com/ctnelson1997/cs571-org/master/cs571_s24_syllabus.pdf">the syllabus here</a>. Course grading details <b>are provided below the schedule.</b> (N) links to notes and (R) links to recording of the lecture.</p>
         <Table striped bordered hover>
             <thead>
                 <tr>
@@ -41,7 +41,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 19<br/></td>
-                    <td>Web Dev 2 & Interaction Design</td>
+                    <td>Web Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week05-webdev2.pdf">(N)</a> & Interaction Design</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw4">HW4</a></td>
                     <td>ICA D</td>
                 </tr>
