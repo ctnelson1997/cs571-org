@@ -35,9 +35,9 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 12<br/></td>
-                    <td>Web Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week04-webdev1.pdf">(N)</a> & Web Design</td>
+                    <td>Web Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week04-webdev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_gyl2pi4i">(R)</a> & Web Design <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week04-web-design.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_xyxd5gyf">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw3">HW3</a></td>
-                    <td>ICA C</td>
+                    <td><a target="_blank" href="https://docs.google.com/document/d/1xsOJXnuYQ2Df4Pmgqxcl0d_KSnil2fAf8ZV8lOE-vjo/edit?usp=sharing">ICA C</a></td>
                 </tr>
                 <tr>
                     <td>Feb 19<br/></td>
