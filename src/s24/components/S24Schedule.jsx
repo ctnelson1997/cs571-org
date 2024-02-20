@@ -41,7 +41,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 19<br/></td>
-                    <td>Web Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week05-webdev2.pdf">(N)</a> & Interaction Design</td>
+                    <td>Web Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week05-webdev2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_8vypr21o">(R)</a> & Interaction Design</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw4">HW4</a></td>
                     <td>ICA D</td>
                 </tr>
