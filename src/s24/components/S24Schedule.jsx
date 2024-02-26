@@ -47,7 +47,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Feb 26<br/></td>
-                    <td>Web Dev 3 & Expert Evaluation</td>
+                    <td>Web Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week06-webdev3.pdf">(N)</a> & Expert Evaluation</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw5">HW5</a></td>
                     <td>ICA E</td>
                 </tr>
