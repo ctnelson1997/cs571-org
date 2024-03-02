@@ -5,8 +5,8 @@ import S23Schedule from './components/S23Schedule';
 function S23Home() {
   return (
     <div class="pad">
-      <Alert variant='warning'><strong>The Spring 2023 APIs have been retired.</strong> Please see a newer semester of the course.</Alert>
       <Container>
+        <Alert variant='danger'><strong>The Spring 2023 APIs have been retired.</strong> Please see a newer semester of the course.</Alert>
         <Row>
           <h1>Welcome to CS571 S23!</h1>
         </Row>
