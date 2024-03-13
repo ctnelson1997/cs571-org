@@ -112,7 +112,7 @@ const HomeNav = (props) => {
                     </Container>
                 </Navbar>
         }
-        <Alert variant="success"><strong>New!</strong> Not a UW Student? You can still get access! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>
+        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> Not a UW Student? You can still get access! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>}
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>
