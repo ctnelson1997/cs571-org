@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import TimerNote from "./TimerNote";
 
 export default function TimerGo(props) {
 
+    const [notes, setNotes] = useState([]);
     const [endDt, setEndDt] = useState(props.endDt);
     const [dt, setDt] = useState(new Date());
     const [fontSize, setFontSize] = useState(window.innerWidth / 14);
@@ -49,6 +51,14 @@ export default function TimerGo(props) {
         setIsPaused(false)
     }
 
+    function addNote() {
+        const p = prompt("Please type out your note for the class...");
+        setNotes(n => [...n, {
+            id: new Date().getTime(),
+            content: p
+        }])
+    }
+
     // ChatGPT
     const millisecondsToHMS = useCallback((ms) => {
         const seconds = Math.floor(ms / 1000);
@@ -66,7 +76,14 @@ export default function TimerGo(props) {
     let rmMs = new Date(endDt.getTime() - dt.getTime() + 1000);
     const isOver = rmMs < 0;
 
+    const handleDeleteNote = (id) => {
+        setNotes(ns => ns.filter(n => n.id !== id))
+    }
+
     return <div>
+
+        <Button variant="outline-primary" style={{ position: "fixed", top: "1rem", left: "1rem" }} onClick={addNote}>Add Note</Button>
+
         {
             isOver ? <></> : (
                 isPaused ?
@@ -114,5 +131,15 @@ export default function TimerGo(props) {
                 </Container>
             </>
         }
+
+        <Container fluid>
+            <Row>
+                {
+                    notes.map(n => <Col key={n.id} xs={6} lg={4} xxl={3}>
+                        <TimerNote {...n} handleDelete={handleDeleteNote}/>
+                    </Col>)
+                }
+            </Row>
+        </Container>
     </div>
 }
