@@ -65,7 +65,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Mar 18<br/></td>
-                    <td>Mobile Dev 1 & Prototyping</td>
+                    <td>Mobile Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week09-mobiledev1.pdf">(N)</a> & Prototyping</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw7">HW7</a> (2 pts)</td>
                     <td>ICA G</td>
                 </tr>
