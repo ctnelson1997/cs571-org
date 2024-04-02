@@ -65,7 +65,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Mar 18<br/></td>
-                    <td>Mobile Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week09-mobiledev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_eq79cqbm">(R)</a> & Prototyping <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week09-prototyping.pdf">(N)</a></td>
+                    <td>Mobile Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week09-mobiledev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_eq79cqbm">(R)</a> & Prototyping <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week09-prototyping.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_dhj26083">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw7">HW7</a> (2 pts)</td>
                     <td><a target="_blank" href="https://docs.google.com/document/d/1ToLvECZgXjIm20LFrs5xRC3xtoEjKiygOO1ein87Ea4/edit?usp=sharing">ICA G</a></td>
                 </tr>
@@ -77,7 +77,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 1<br/></td>
-                    <td>Mobile Dev 2 & Mobile Design</td>
+                    <td>Mobile Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week11-mobiledev2.pdf">(N)</a> & Mobile Design</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw8">HW8</a></td>
                     <td>ICA H</td>
                 </tr>
