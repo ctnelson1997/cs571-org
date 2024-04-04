@@ -112,7 +112,6 @@ const HomeNav = (props) => {
                     </Container>
                 </Navbar>
         }
-        <br/>
         {/* <Alert variant="warning"><strong>Planned Outage </strong> <a target="_blank" href="https://cs571.org/">cs571.org</a> will be unavailable on Wednesday, April 3rd from 7-10 pm CT for planned maintenance. The website and APIs will be unresponsive during this time.</Alert> */}
         {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> Not a UW Student? You can still get access! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>}
         <div style={{ margin: "1rem" }}>
