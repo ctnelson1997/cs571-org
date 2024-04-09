@@ -83,7 +83,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 8<br/></td>
-                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> & VUI Design/Exp Prototyping</td>
+                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_jdtqhjo5">(R)</a> & VUI Design/Exp Prototyping</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw9">HW9</a></td>
                     <td>ICA I</td>
                 </tr>
