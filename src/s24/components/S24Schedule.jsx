@@ -83,25 +83,25 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 8<br/></td>
-                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_jdtqhjo5">(R)</a> & VUI Design/Exp Prototyping</td>
+                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_jdtqhjo5">(R)</a> & VUI Design</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw9">HW9</a></td>
                     <td>ICA I</td>
                 </tr>
                 <tr>
                     <td>Apr 15<br/></td>
-                    <td>Speech Dev 1 & Designing Agents</td>
+                    <td>VUI Dev 1 & Designing Agents</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw10">HW10</a></td>
                     <td>ICA J</td>
                 </tr>
                 <tr>
                     <td>Apr 22<br/></td>
-                    <td>Speech Dev 2 & User Evaluation</td>
+                    <td>VUI Dev 2 & User Evaluation</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW11</a></td>
                     <td>ICA K</td>
                 </tr>
                 <tr>
                     <td>Apr 29<br/></td>
-                    <td>Fullstack Development & Professor's Choice</td>
+                    <td>Fullstack Development & Secure User Interfaces</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW12</a> (2 pts)</td>
                     <td>ICA L</td>
                 </tr>
