@@ -83,13 +83,13 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 8<br/></td>
-                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_jdtqhjo5">(R)</a> & VUI Design</td>
+                    <td>Mobile Dev 3 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-mobiledev3.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_jdtqhjo5">(R)</a> & VUI Design <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week12-vui-design-experience-prototyping.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_7zu6k447">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw9">HW9</a></td>
-                    <td>ICA I</td>
+                    <td><a target="_blank" href="https://docs.google.com/document/d/1ZiDsVeOtRhCCqiecpYmtFZ2dqUYX1qkiYoOTMYAb1_c/edit?usp=sharing">ICA I</a></td>
                 </tr>
                 <tr>
                     <td>Apr 15<br/></td>
-                    <td>VUI Dev 1 & Designing Agents</td>
+                    <td>VUI Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-voicedev1.pdf">(N)</a> & Designing Agents</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw10">HW10</a></td>
                     <td>ICA J</td>
                 </tr>
