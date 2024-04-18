@@ -89,9 +89,9 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 15<br/></td>
-                    <td>VUI Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-voicedev1.pdf">(N)</a> & Designing Agents</td>
+                    <td>VUI Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-voicedev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_o8pcfbta">(R)</a> & Designing Agents <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-designing-agents.pdf">(N)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw10">HW10</a></td>
-                    <td>ICA J</td>
+                    <td><a target="_blank" href="https://docs.google.com/document/d/1TnDhzL8NjScQY3Afl7ruD4nLaHVH1_fUrdoZCVPrzc0/edit?usp=sharing">ICA J</a></td>
                 </tr>
                 <tr>
                     <td>Apr 22<br/></td>
@@ -103,7 +103,7 @@ export default function S24Schedule() {
                     <td>Apr 29<br/></td>
                     <td>Fullstack Development & Secure User Interfaces</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW12</a> (2 pts)</td>
-                    <td>ICA L</td>
+                    <td><p style={{textDecoration: "line-through"}}>ICA L</p> Free Point!</td>
                 </tr>
                 <tr>
                     <td>May 10<br/></td>
@@ -132,7 +132,7 @@ export default function S24Schedule() {
                 <tr>
                     <td>In Class Activities (ICAs)</td>
                     <td>10</td>
-                    <td>12 ICAs (1 pt), 2 lowest dropped</td>
+                    <td>12 ICAs (1 pt), 2 lowest dropped, 1 free pt</td>
                 </tr>
                 <tr>
                     <td>Midterm Exam</td>
