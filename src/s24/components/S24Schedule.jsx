@@ -89,7 +89,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 15<br/></td>
-                    <td>VUI Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-voicedev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_o8pcfbta">(R)</a> & Designing Agents <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-designing-agents.pdf">(N)</a></td>
+                    <td>VUI Dev 1 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-voicedev1.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_o8pcfbta">(R)</a> & Designing Agents <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week13-designing-agents.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ooy5wscz">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw10">HW10</a></td>
                     <td><a target="_blank" href="https://docs.google.com/document/d/1TnDhzL8NjScQY3Afl7ruD4nLaHVH1_fUrdoZCVPrzc0/edit?usp=sharing">ICA J</a></td>
                 </tr>
