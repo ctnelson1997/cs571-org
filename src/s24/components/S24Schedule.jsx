@@ -95,7 +95,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 22<br/></td>
-                    <td>VUI Dev 2 & User Evaluation</td>
+                    <td>VUI Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-voicedev2.pdf">(N)</a> & User Evaluation</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW11</a></td>
                     <td>ICA K</td>
                 </tr>
