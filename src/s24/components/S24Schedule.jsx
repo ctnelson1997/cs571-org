@@ -95,7 +95,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 22<br/></td>
-                    <td>VUI Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-voicedev2.pdf">(N)</a> & User Evaluation</td>
+                    <td>VUI Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-voicedev2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5qi7b6fw">(R)</a> & User Evaluation</td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW11</a></td>
                     <td>ICA K</td>
                 </tr>
