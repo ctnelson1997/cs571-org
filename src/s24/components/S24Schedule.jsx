@@ -95,14 +95,14 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 22<br/></td>
-                    <td>VUI Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-voicedev2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5qi7b6fw">(R)</a> & User Evaluation</td>
+                    <td>VUI Dev 2 <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-voicedev2.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5qi7b6fw">(R)</a> & User Evaluation <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-user-evaluation.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_mtlnj3uh">(R)</a></td>
                     <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW11</a></td>
-                    <td>ICA K</td>
+                    <td><a target="_blank" href="https://docs.google.com/document/d/1L5yEx3ILzZdKK_j7T6FwUqSo3UPg4PNdQE1uDuswLv8/edit?usp=sharing">ICA K</a></td>
                 </tr>
                 <tr>
                     <td>Apr 29<br/></td>
                     <td>Fullstack Development & Secure User Interfaces</td>
-                    <td><a target="_blank" href="https://github.com/CS571-S24/hw11">HW12</a> (2 pts)</td>
+                    <td><p style={{textDecoration: "line-through"}}>HW12</p> Free Point!</td>
                     <td><p style={{textDecoration: "line-through"}}>ICA L</p> Free Point!</td>
                 </tr>
                 <tr>
@@ -127,7 +127,7 @@ export default function S24Schedule() {
                 <tr>
                     <td>Weekly Assignments</td>
                     <td>45</td>
-                    <td>10 HWs (4 pts) & 3 HWs (1-2 pts each)</td>
+                    <td>Across 12 HWs</td>
                 </tr>
                 <tr>
                     <td>In Class Activities (ICAs)</td>
