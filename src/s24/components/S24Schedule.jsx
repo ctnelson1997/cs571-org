@@ -101,7 +101,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 29<br/></td>
-                    <td>Fullstack Development & Secure User Interfaces</td>
+                    <td>Fullstack Development <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week15-fullstack.pdf">(N)</a> & Secure User Interfaces</td>
                     <td><p style={{textDecoration: "line-through"}}>HW12</p> Free Point!</td>
                     <td><p style={{textDecoration: "line-through"}}>ICA L</p> Free Point!</td>
                 </tr>
