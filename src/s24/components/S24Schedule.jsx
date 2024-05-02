@@ -101,7 +101,7 @@ export default function S24Schedule() {
                 </tr>
                 <tr>
                     <td>Apr 29<br/></td>
-                    <td>Fullstack Development <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week15-fullstack.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ypm9yzfk">(R)</a> & Secure User Interfaces</td>
+                    <td>Fullstack Development <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week15-fullstack.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_ypm9yzfk">(R)</a> & Secure User Interfaces <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week15-suis.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_5qi7b6fw">(R)</a> & User Evaluation <a target="_blank" href="https://github.com/CS571-S24/lectures/raw/main/week14-user-evaluation.pdf">(N)</a> <a target="_blank" href="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/25717641/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_977ihqxv">(R)</a></td>
                     <td><p style={{textDecoration: "line-through"}}>HW12</p> Free Point!</td>
                     <td><p style={{textDecoration: "line-through"}}>ICA L</p> Free Point!</td>
                 </tr>
