@@ -9,7 +9,6 @@ function BadgerAuthLanding(props) {
 
     const navigate = useNavigate();
 
-
     if (localStorage.getItem("cookieWaiver") === "false") {
         return <>
             <p>This page requires the use of cookies, which you have rejected. Please enable cookies to view this resource.</p>
