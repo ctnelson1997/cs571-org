@@ -1,7 +1,4 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-import BadgerAuthHome from "./BadgerAuthHome";
-import BadgerAuthManage from "./BadgerAuthManage";
-import BadgerAuthConfirmation from "./BadgerAuthConfirmation";
 import { useContext, useState } from "react";
 import { Outlet, useNavigate } from "react-router";
 import ToastsContext from "../contexts/ToastsContext";

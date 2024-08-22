@@ -1,20 +1,20 @@
-import { Button, Toast } from "react-bootstrap";
-import BadgerAuthCard from "./components/BadgerAuthCard";
-import BadgerAuthCreateModal from "./components/BadgerAuthCreateModal";
+import { Button, Form, Toast } from "react-bootstrap";
 import { useContext, useEffect, useState } from "react";
 import ToastsContext from "../contexts/ToastsContext";
 import { useNavigate } from "react-router";
-import BadgerAuthRevokeModal from "./components/BadgerAuthRevokeModal";
+import BadgerAuthRevokeModal from "./BadgerAuthRevokeModal";
 
 function BadgerAuthManage(props) {
 
     const navigate = useNavigate();
 
-    const [showCreateModal, setShowCreateModal] = useState(false);
     const [showRevokeModal, setShowRevokeModal] = useState(false);
 
     const [revokeBid, setRevokeBid] = useState("");
-    const [ids, setIds] = useState([])
+    const [bid, setBid] = useState(undefined)
+
+    const [isShowingBid, setIsShowingBid] = useState(false);
+    const [isCopied, setIsCopied] = useState(false);
 
     const reloadBids = async () => {
         const res = await fetch('https://cs571.org/api/auth/get-my-bids', {
@@ -22,17 +22,9 @@ function BadgerAuthManage(props) {
         })
         if (res.status === 200) {
             const bids = await res.json();
-            setIds(bids
-                .sort((a, b) => new Date(b.iat) - new Date(a.iat))
-                .map(bid => {
-                    return {
-                        ...bid,
-                        iat: new Date(bid.iat),
-                        eat: bid.eat ? new Date(bid.eat) : undefined
-                    }
-                })
-            );
-        } else {
+            setBid(bids?.length > 0 ? bids[0].bid : undefined);
+        }
+        else {
             addToast({
                 title: "Session Expired",
                 body: "Your session has expired, please log back in.",
@@ -41,15 +33,6 @@ function BadgerAuthManage(props) {
             })
             navigate('/auth')
         }
-    }
-
-    const openCreateModal = () => {
-        setShowCreateModal(true);
-    }
-
-    const closeCreateModal = () => {
-        setShowCreateModal(false);
-        reloadBids();
     }
 
     const openRevokeModal = (bidToRevoke) => {
@@ -90,28 +73,63 @@ function BadgerAuthManage(props) {
         navigate('/')
     }
 
-    return <div>
-        <p>Manage your Badger IDs below. Typically, students only use one Badger ID throughout the semester. Badger IDs start with <strong>bid_</strong> for UW-Madison students, and <strong>bid_fa_</strong> for all other students.</p>
-        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system. If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned from <a href="https://cs571.org">cs571.org</a>.</p>
-        <p>After issuing a Badger ID, you will need to use it by visiting <a target="_blank" href="https://www.cs571.org/auth/login">BadgerAuth - Use BadgerID</a>.</p>
-        <h2>Your Badger IDs</h2>
-        <div>
-            <Button variant="success" onClick={openCreateModal}>Create New Badger ID</Button>
-            <Button onClick={logout} variant="secondary" style={{marginLeft: "0.5rem"}}>Done Managing Badger IDs</Button>
-        </div>
-        <br></br>
-        {
-            ids && ids.length > 0 ?
-                ids.map(id => <BadgerAuthCard
-                    key={id.bid}
-                    {...id}
-                    openRevokeModal={openRevokeModal}
-                    style={{ marginTop: "1rem" }} />)
-                :
-                <><br /><p>You currently have no BadgerIDs.</p></>
+    const create = async () => {
+        const res = await fetch("https://cs571.org/api/auth/add-bid-to-email", {
+            method: "POST",
+            credentials: "include",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                nickname: undefined,
+                eat: undefined
+            })
+        })
+        if (res.status === 200) {
+            addToast({
+                title: "Success!",
+                body: "Successfully created a new Badger ID! It may take up to 10 minutes for this to be usable.",
+                variant: "success",
+                lifespan: 10
+            })
+            reloadBids();
+        } else if (res.status === 401) {
+            addToast({
+                title: "Session Expired",
+                body: "Your session has expired, please log back in.",
+                variant: "warning",
+                lifespan: 5
+            })
+            navigate('/auth')
         }
+    }
+
+    const copy = () => {
+        navigator.clipboard.writeText(bid);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000)
+    }
+
+    return <div>
+        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system. If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned from <a href="https://cs571.org">cs571.org</a>.</p>
+        <h2>Your Badger ID</h2>
+        {
+           bid ? <>
+                <Form.Control type="text" disabled={true} value={bid && isShowingBid ? bid : "********************"} aria-label="Badger ID Value"></Form.Control>
+                <div style={{marginTop: "0.5rem", display: "inline-flex"}}>
+                    <Button variant="secondary" title="Reveal" aria-label="Reveal Badger ID" onClick={() => setIsShowingBid(b => !b)} style={{marginRight: "0.5rem"}}>{isShowingBid ? "Hide" : "Reveal"}</Button>
+                    <Button variant="primary" title="Copy" onClick={copy} aria-label="Copy Badger ID Value" style={{marginRight: "0.5rem"}}>{isCopied ? "Copied!" : "Copy"}</Button>
+                    <Button variant="danger" title="Revoke" style={{marginRight: "0.5rem"}} onClick={() => openRevokeModal(bid)}>Revoke</Button>
+                </div>
+                </>
+                : <>
+                    <p>You do not currently have a Badger ID.</p> :
+                    <Button variant="success" onClick={create}>Create a Badger ID</Button>
+                </>
+        }
+        <br/><br/>
+        <Button onClick={logout} variant="outline-secondary">Done Managing Badger IDs</Button>
         <BadgerAuthRevokeModal show={showRevokeModal} close={closeRevokeModal} bid={revokeBid}></BadgerAuthRevokeModal>
-        <BadgerAuthCreateModal show={showCreateModal} close={closeCreateModal}></BadgerAuthCreateModal>
     </div>
 }
 

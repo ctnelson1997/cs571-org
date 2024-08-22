@@ -94,13 +94,12 @@ const HomeNav = (props) => {
                             <Nav>
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 {
-                                    cookieWaiver === false ? <></> :
-                                        <NavDropdown title="BadgerAuth">
-                                        <NavDropdown.Item as={Link} to="/auth/login">Use BadgerID</NavDropdown.Item>
-                                        <NavDropdown.Item as={Link} to="/auth">Manage BadgerIDs</NavDropdown.Item>
-                                    </NavDropdown>
+                                    cookieWaiver === false ?
+                                        <></> :
+                                        <Nav.Link as={Link} to="/auth">BadgerAuth</Nav.Link>
                                 }
                                 <NavDropdown title="Past Semesters">
+                                    <NavDropdown.Item as={Link} to="/s24">Spring 2024</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/f23">Fall 2023</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/s23">Spring 2023</NavDropdown.Item>
                                     <NavDropdown.Item href="https://cs571.github.io/Spring22/" target="_blank">Spring 2022</NavDropdown.Item>
@@ -113,7 +112,7 @@ const HomeNav = (props) => {
                 </Navbar>
         }
         {/* <Alert variant="warning"><strong>Planned Outage </strong> <a target="_blank" href="https://cs571.org/">cs571.org</a> will be unavailable on Wednesday, April 3rd from 7-10 pm CT for planned maintenance. The website and APIs will be unresponsive during this time.</Alert> */}
-        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> Not a UW Student? You can still get access! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>}
+        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> CS571 is open to <em>everybody</em>! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>}
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>

@@ -9,17 +9,17 @@ import BadgerAuthLanding from './badgerauth/BadgerAuthLanding';
 import BadgerAuthHome from './badgerauth/BadgerAuthHome';
 import BadgerAuthConfirmation from './badgerauth/BadgerAuthConfirmation';
 import BadgerAuthManage from './badgerauth/BadgerAuthManage';
-import BadgerAuthLoginBadgerId from './badgerauth/BadgerAuthLoginBadgerId';
-import BadgerAuthLogoutBadgerId from './badgerauth/BadgerAuthLogoutBadgerId';
 import TimerHolder from './site-wide/timer/TimerHolder'
 import S24Home from './s24/S24Home';
+import F24Home from './f24/F24Home';
 
 
 function App() {
   return <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomeNav/>}>
-        <Route index element={<S24Home />} />
+        <Route index element={<F24Home />} />
+        <Route path="f24" element={<F24Home />} />
         <Route path="s24" element={<S24Home />} />
         <Route path="f23" element={<F23Home />} />
         <Route path="s23" element={<S23Home />} />
@@ -27,8 +27,6 @@ function App() {
           <Route index element={<BadgerAuthHome />}/>
           <Route path="otp" element={<BadgerAuthConfirmation/>}/>
           <Route path="manage" element={<BadgerAuthManage/>}/>
-          <Route path="login" element={<BadgerAuthLoginBadgerId/>}/>
-          <Route path="logout" element={<BadgerAuthLogoutBadgerId/>}/>
         </Route>
         <Route path="exam-timer" element={<TimerHolder/>}/>
         <Route path="*" element={<NoMatch />} />

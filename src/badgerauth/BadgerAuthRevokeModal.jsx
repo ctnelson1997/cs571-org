@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
 import { useNavigate } from "react-router";
-import ToastsContext from "../../contexts/ToastsContext";
+import ToastsContext from "../contexts/ToastsContext";
 import { useForm } from "react-hook-form";
 
 function BadgerAuthRevokeModal({

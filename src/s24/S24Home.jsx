@@ -5,6 +5,7 @@ import S24Schedule from './components/S24Schedule';
 function S24Home() {
   return (
     <div className="pad">
+      <Alert variant='warning'><code>CS571.getBadgerId()</code> is no longer available for S24. Please <em>hardcode</em> your Badger ID.</Alert>
       <Container>
         <Row>
           <h1>Welcome to CS571 Spring 2024!</h1>

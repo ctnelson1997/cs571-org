@@ -101,24 +101,21 @@ function BadgerAuthHome(props) {
     }, [])
 
     return <div>
-        <Alert variant="success">The system now accepts <em>any</em> <strong>.edu</strong> email addresses!</Alert>
-        <p>Use this area to manage the Badger ID(s) associated with your account.</p>
-        <p>Anyone with an <strong>.edu</strong> email address can generate Badger ID(s)! Don't have an educational email address but still interested in taking the class? <a target="_blank" href="https://forms.gle/ffeCvz4ahr6eoxcUA">Join our waitlist here!</a></p>
-        <hr></hr>
+        <p>Use this area to access and manage the Badger ID associated with your account. <strong>If you are a UW student, <a target="_blank" href="https://cs571api.cs.wisc.edu/ui/">please use this webpage instead.</a></strong></p>
         <Form style={{ marginBottom: "0.5rem" }} onSubmit={handleSubmit(manageBids)}>
-            <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your educational email address?</Form.Label>
+            <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your email address?</Form.Label>
             <Form.Control
                 id="email"
                 type="email"
                 value={email}
-                placeholder="bbadger@wisc.edu"
+                placeholder="pete@uwplatt.edu"
                 {...register('email', {
                     required: true,
                     onChange: (e) => { setEmail(e.target.value); setBlurred(false); },
                     onBlur: handleBlur,
                 })}
             ></Form.Control>
-            {errors.email && <p style={{ color: "maroon" }}>Please enter a valid <strong>.edu</strong> email address.</p>}
+            {errors.email && <p style={{ color: "maroon" }}>Please enter a valid email address.</p>}
             {email && blurred && <sub>A confirmation email will be sent to <strong>{email}</strong>.</sub>}
             {!errors.email && <p></p>}
             <Recaptcha
