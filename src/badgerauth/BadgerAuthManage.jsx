@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import ToastsContext from "../contexts/ToastsContext";
 import { useNavigate } from "react-router";
 import BadgerAuthRevokeModal from "./BadgerAuthRevokeModal";
+import CS571Configurator from "../config/configurator";
 
 function BadgerAuthManage(props) {
 
@@ -17,7 +18,7 @@ function BadgerAuthManage(props) {
     const [isCopied, setIsCopied] = useState(false);
 
     const reloadBids = async () => {
-        const res = await fetch('https://cs571.org/api/auth/get-my-bids', {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + '/auth/get-my-bids', {
             credentials: "include"
         })
         if (res.status === 200) {
@@ -60,7 +61,7 @@ function BadgerAuthManage(props) {
     }, [])
 
     const logout = async () => {
-        const res = await fetch('https://cs571.org/api/auth/remove-cs571-badgerauth-cookie', {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + '/auth/remove-cs571-badgerauth-cookie', {
             method: "DELETE",
             credentials: "include"
         })
@@ -74,7 +75,7 @@ function BadgerAuthManage(props) {
     }
 
     const create = async () => {
-        const res = await fetch("https://cs571.org/api/auth/add-bid-to-email", {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + "/auth/add-bid-to-email", {
             method: "POST",
             credentials: "include",
             headers: {
@@ -111,7 +112,7 @@ function BadgerAuthManage(props) {
     }
 
     return <div>
-        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system. If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned from <a href="https://cs571.org">cs571.org</a>.</p>
+        <p><strong>You are responsible for all traffic from your Badger ID.</strong> Keep this a secret! Only share it with trusted individuals that should have access to the system. If your Badger ID is associated with malicious activity, your account will be permanently and irrevocably banned.</p>
         <h2>Your Badger ID</h2>
         {
            bid ? <>

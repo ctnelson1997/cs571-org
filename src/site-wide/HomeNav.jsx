@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import SpinnerContext from "../contexts/SpinnerContext";
 import AnnouncementToast from "./components/AnnouncementToast";
 import ToastsContext from "../contexts/ToastsContext";
+import CS571Configurator from "../config/configurator";
 
 const HomeNav = (props) => {
     const currentPath = useResolvedPath().pathname;
@@ -54,11 +55,11 @@ const HomeNav = (props) => {
     const banCookie = async () => {
         localStorage.setItem("cookieWaiver", "false");
         setCookieWaiver(false);
-        await fetch("https://cs571.org/api/auth/remove-cs571-bid-cookie", {
+        await fetch(CS571Configurator.BADGERAUTH_API + "/auth/remove-cs571-bid-cookie", {
             method: "DELETE",
             credentials: "include"
         })
-        await fetch('https://cs571.org/api/auth/remove-cs571-badgerauth-cookie', {
+        await fetch(CS571Configurator.BADGERAUTH_API + '/auth/remove-cs571-badgerauth-cookie', {
             method: "DELETE",
             credentials: "include"
         })
@@ -111,8 +112,7 @@ const HomeNav = (props) => {
                     </Container>
                 </Navbar>
         }
-        {/* <Alert variant="warning"><strong>Planned Outage </strong> <a target="_blank" href="https://cs571.org/">cs571.org</a> will be unavailable on Wednesday, April 3rd from 7-10 pm CT for planned maintenance. The website and APIs will be unresponsive during this time.</Alert> */}
-        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> CS571 is open to <em>everybody</em>! <a target="_blank" href="https://cs571.org/auth">Get your Badger ID here.</a></Alert>}
+        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> CS571 is open to <em>everybody</em>! <a target="_blank" href={CS571Configurator.BADGERAUTH_UI_CENTER}>Get your Badger ID here.</a></Alert>}
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>

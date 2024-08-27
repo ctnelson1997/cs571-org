@@ -30,7 +30,7 @@ function BadgerAuthRevokeModal({
 
     const create = async (d, e) => {
         e.preventDefault();
-        const res = await fetch("https://cs571.org/api/auth/revoke-bid-from-email", {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + "/auth/revoke-bid-from-email", {
             method: "POST",
             credentials: "include",
             headers: {

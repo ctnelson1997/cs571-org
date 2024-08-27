@@ -7,6 +7,7 @@ import SpinnerContext from "../contexts/SpinnerContext";
 import ToastsContext from "../contexts/ToastsContext";
 
 import Recaptcha from "react-google-recaptcha"
+import CS571Configurator from "../config/configurator";
 
 function BadgerAuthHome(props) {
 
@@ -33,7 +34,7 @@ function BadgerAuthHome(props) {
     const spinner = useContext(SpinnerContext);
 
     const handleBlur = () => {
-        fetch("https://cs571.org/api/auth/email-allow?email=" + email)
+        fetch(CS571Configurator.BADGERAUTH_API + "/auth/email-allow?email=" + email)
         .then(res => res.json())
         .then(d => {
             if (d.allowed) {
@@ -51,7 +52,7 @@ function BadgerAuthHome(props) {
         const token = captchaRef.current.getValue();
         captchaRef.current.reset();
         spinner.start();
-        const res = await fetch('https://cs571.org/api/auth/request-verify-email', {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + '/auth/request-verify-email', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -91,7 +92,7 @@ function BadgerAuthHome(props) {
 
     useEffect(() => {
         (async () => {
-            const res = await fetch('https://cs571.org/api/auth/get-my-bids', {
+            const res = await fetch(CS571Configurator.BADGERAUTH_API + '/auth/get-my-bids', {
                 credentials: "include"
             })
             if (res.status === 200) {
@@ -101,7 +102,7 @@ function BadgerAuthHome(props) {
     }, [])
 
     return <div>
-        <p>Use this area to access and manage the Badger ID associated with your account. <strong>If you are a UW student, <a target="_blank" href="https://cs571api.cs.wisc.edu/ui/">please use this webpage instead.</a></strong></p>
+        <p>Use this area to access and manage the Badger ID associated with your account. {!CS571Configurator.IS_ON_PREM && <strong>If you are a UW student, <a target="_blank" href="https://cs571api.cs.wisc.edu/ui/">please use this webpage instead.</a></strong>}</p>
         <Form style={{ marginBottom: "0.5rem" }} onSubmit={handleSubmit(manageBids)}>
             <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your email address?</Form.Label>
             <Form.Control
