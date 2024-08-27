@@ -3,6 +3,7 @@ import { Button, Form, Modal } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import ToastsContext from "../contexts/ToastsContext";
 import { useForm } from "react-hook-form";
+import CS571Configurator from "../config/configurator";
 
 function BadgerAuthRevokeModal({
     show,

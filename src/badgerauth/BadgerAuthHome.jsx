@@ -102,7 +102,10 @@ function BadgerAuthHome(props) {
     }, [])
 
     return <div>
-        <p>Use this area to access and manage the Badger ID associated with your account. {!CS571Configurator.IS_ON_PREM && <strong>If you are a UW student, <a target="_blank" href="https://cs571api.cs.wisc.edu/ui/">please use this webpage instead.</a></strong>}</p>
+        <p>Use this area to access and manage the Badger ID associated with your account.</p>
+        {CS571Configurator.IS_ON_PREM ? 
+        <p><strong>This is only for UW students!</strong> If you are not a UW student, please use <a target="_blank" href="https://cs571.org/">cs571.org</a></p> :
+        <p><strong>If you are a UW student, <a target="_blank" href="https://cs571api.cs.wisc.edu/ui/">please use this webpage instead.</a></strong></p>}
         <Form style={{ marginBottom: "0.5rem" }} onSubmit={handleSubmit(manageBids)}>
             <Form.Label htmlFor="email" style={{ marginBottom: "0.25rem" }}>What is your email address?</Form.Label>
             <Form.Control
@@ -125,7 +128,7 @@ function BadgerAuthHome(props) {
                         setCaptchaCompleted(true);
                     }
                 }}
-                sitekey="6LdoX_gnAAAAAGaseOd6ceFdGzWIO8YMPV9w3Daj"
+                sitekey={CS571Configurator.CAPTCHA}
                 ref={captchaRef}
             />
             <br/>

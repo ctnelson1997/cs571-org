@@ -7,6 +7,7 @@ import { useNavigate } from "react-router";
 import ToastsContext from "../contexts/ToastsContext";
 
 import Recaptcha from "react-google-recaptcha"
+import CS571Configurator from "../config/configurator";
 
 
 function BadgerAuthConfirmation(props) {
@@ -33,7 +34,7 @@ function BadgerAuthConfirmation(props) {
         e.preventDefault();
         const token = captchaRef.current.getValue();
         captchaRef.current.reset();
-        const res = await fetch('https://cs571.org/api/auth/approve-verify-email', {
+        const res = await fetch(CS571Configurator.BADGERAUTH_API + '/auth/approve-verify-email', {
             method: "POST",
             credentials: "include",
             headers: {
@@ -102,7 +103,7 @@ function BadgerAuthConfirmation(props) {
                         setCaptchaCompleted(true);
                     }
                 }}
-                sitekey="6LdoX_gnAAAAAGaseOd6ceFdGzWIO8YMPV9w3Daj"
+                sitekey={CS571Configurator.CAPTCHA}
                 ref={captchaRef}
             />
             <br />
