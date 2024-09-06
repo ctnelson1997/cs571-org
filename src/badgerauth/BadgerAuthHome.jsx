@@ -112,7 +112,7 @@ function BadgerAuthHome(props) {
                 id="email"
                 type="email"
                 value={email}
-                placeholder="pete@uwplatt.edu"
+                placeholder={CS571Configurator.IS_ON_PREM ? "bucky@wisc.edu" : "pete@uwplatt.edu"}
                 {...register('email', {
                     required: true,
                     onChange: (e) => { setEmail(e.target.value); setBlurred(false); },

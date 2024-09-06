@@ -13,6 +13,7 @@ import TimerHolder from './site-wide/timer/TimerHolder'
 import S24Home from './s24/S24Home';
 import F24Home from './f24/F24Home';
 import CS571Configurator from './config/configurator';
+import PrivacyPolicy from './site-wide/PrivacyPolicy';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         </Route>
         <Route path="exam-timer" element={<TimerHolder/>}/>
         <Route path="*" element={<NoMatch />} />
+        <Route path='privacy-policy' element={<PrivacyPolicy/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

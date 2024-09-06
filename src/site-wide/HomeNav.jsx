@@ -107,12 +107,16 @@ const HomeNav = (props) => {
                                     <NavDropdown.Item href="https://hci-curriculum-uwmadison.github.io/CS571/" target="_blank">Fall 2021</NavDropdown.Item>
                                     <NavDropdown.Item href="https://wisc-hci-curriculum.github.io/cs639-f20/" target="_blank">Fall 2020</NavDropdown.Item>
                                 </NavDropdown>
+                                <Nav.Link as={Link} to={"/privacy-policy"}>Privacy Policy</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
         }
-        {currentPath === '/exam-timer' ? <></> : <Alert variant="success"><strong>New!</strong> CS571 is open to <em>everybody</em>! <a target="_blank" href={CS571Configurator.BADGERAUTH_UI_CENTER}>Get your Badger ID here.</a></Alert>}
+        {currentPath === '/exam-timer' ? <></> : ( CS571Configurator.IS_ON_PREM ?
+            <Alert variant="secondary"><strong>This site is for UW students only.</strong> Not a UW student? Please use <a target="_blank" href="https://cs571.org">cs571.org</a></Alert> :
+            <Alert variant="success"><strong>New!</strong> CS571 is open to <em>everybody</em>! When making API requests, simply replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code></Alert>
+        )}
         <div style={{ margin: "1rem" }}>
             <ToastsContext.Provider value={[toasts, addToast]}>
                 <SpinnerContext.Provider value={spinner}>

@@ -3,10 +3,12 @@ import F24LectureCard from './components/F24LectureCard';
 import { useState } from 'react';
 import F24LectureFocus from './components/F24LectureFocus';
 import CS571Configurator from '../config/configurator';
+import lectures from './F24Lectures';
 
 function F24Home() {
 
-  const [selectedLecture, setSelectedLecture] = useState();
+  const [allLectures, setAllLectures] = useState(lectures);
+  const [selectedLecture, setSelectedLecture] = useState(allLectures[0]);
 
   const scrollTo = (to) => {
     const scheduleElement = document.getElementById(to);
@@ -26,7 +28,7 @@ function F24Home() {
       <div style={{ textAlign: "center", marginBottom: "1rem" }}>
         <h1>Welcome to CS571 Fall 2024!</h1>
         <p>Co-taught by <a target="_blank" href="https://coletnelson.us/">Cole Nelson</a> and <a target="_blank" href="https://www.yuhangz.com/">Yuhang Zhao</a></p>
-        <Button onClick={() => scrollTo("lectures")}>Let's get started!</Button>
+        {!CS571Configurator.IS_ON_PREM && <Button onClick={() => scrollTo("lecture-focus")}>Let's get started!</Button>}
       </div>
       <Container>
         <Row style={{ textAlign: "center" }}><br /><br /><hr /><br /><br /></Row>
@@ -51,77 +53,26 @@ function F24Home() {
             <h3>Getting Started</h3>
             <p>The semester begins on <strong>Thursday, September 5th, 2024</strong>. Lecture slides and recordings will be posted every Tuesday and Thursday.</p>
             <p>A Badger ID (a unique ID representing <em>you</em>) is needed to complete the homework assignments; you can get one by visiting <a target="_blank" href={CS571Configurator.BADGERAUTH_UI_CENTER}>the BadgerAuth Center</a>.</p>
+            {!CS571Configurator.IS_ON_PREM && <p>When making API requests, simply replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code></p>}
           </Col>
         </Row>
-        <Row id="lectures" style={{ textAlign: "center", marginTop: "2rem" }}>
-          <h2 style={{ fontSize: "2.5rem" }}>Lectures</h2>
-          <p>Lectures cover both <strong style={{color: "firebrick"}}><em>implementation</em></strong> and <strong style={{color: "slateblue"}}><em>design</em></strong> topics.</p>
-          <hr /><br /><br /></Row>
+
       </Container>
 
+      <div style={{marginBottom: "4rem"}} id="lecture-focus"></div>
 
-      <Container style={{ textAlign: "center" }} fluid>
+      {!CS571Configurator.IS_ON_PREM && <Container style={{ textAlign: "center" }} fluid>
+        <Row style={{ textAlign: "center", marginTop: "2rem" }}>
+          <h2 style={{ fontSize: "2.5rem" }}>Lectures</h2>
+          <p>Lectures cover both <strong style={{ color: "firebrick" }}><em>implementation</em></strong> and <strong style={{ color: "slateblue" }}><em>design</em></strong> topics.</p>
+          <hr /><br /><br />
+        </Row>
         <Row>
           <Col xs={12} md={4}>
             <Container>
-              <Row style={{maxHeight: "80vh", alignItems: "center", display: "inline-grid", overflowY: "auto"}}>
+              <Row style={{ maxHeight: "80vh", alignItems: "center", display: "inline-grid", overflowY: "auto" }}>
                 {
-                  [{
-                    title: "Intro to CS571",
-                    desc: "Introduces CS571 & JSON.",
-                    dt: "Thursday, Sept 5th",
-                    available: false,
-                    // vid: "https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_jti46iju&config[provider]={'widgetId':'1_ctewrozc'}"
-                  },
-                  {
-                    title: "Web Dev Basics 1",
-                    desc: "HTML, CSS, and JS Basics",
-                    dt: "Tuesday, Sept 10th",
-                    lectureType: "implementation",
-                    available: false,
-                  },
-                  {
-                    title: "Design Thinking",
-                    desc: "The Design Thinking Process",
-                    dt: "Tuesday, Sept 12th",
-                    lectureType: "design",
-                    available: false,
-                  },
-                  {
-                    title: "Web Dev Basics 2",
-                    desc: "DOM Manipulation and API Requests",
-                    dt: "Tuesday, September 17th",
-                    lectureType: "implementation",
-                    available: false,
-                  },
-                  {
-                    title: "Web Dev Basics 3",
-                    desc: "Various Topics including Declarative Programming, Syntactic Sugar, and CSS Libraries",
-                    dt: "Thursday, September 19th",
-                    lectureType: "implementation",
-                    available: false,
-                  },
-                  {
-                    title: "Web Dev 1",
-                    desc: "React Basics",
-                    dt: "Tuesday, September 24th",
-                    lectureType: "implementation",
-                    available: false,
-                  },
-                  {
-                    title: "Visual Design",
-                    desc: "Aesthetics & Pyschology of Design",
-                    dt: "Tuesday, September 24th",
-                    lectureType: "design",
-                    available: false,
-                  },
-                  {
-                    title: "More...",
-                    desc: "To be continued...",
-                    dt: "TBD",
-                    available: false,
-                  },
-                  ].map(t => <Col key={t.title} xs={12}>
+                  allLectures.map(t => <Col key={t.title} xs={12}>
                     <F24LectureCard {...t} showLecture={showLecture} />
                   </Col>)
                 }
@@ -129,10 +80,10 @@ function F24Home() {
             </Container>
           </Col>
           <Col xs={12} md={8}>
-            <div id="lecture-focus"><F24LectureFocus {...selectedLecture} /></div>
+            <div><F24LectureFocus {...selectedLecture} /></div>
           </Col>
         </Row>
-      </Container>
+      </Container>}
     </div>
   );
 }
