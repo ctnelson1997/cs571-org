@@ -19,7 +19,7 @@ function F24Home() {
 
   const showLecture = (lec) => {
     setSelectedLecture(lec);
-    scrollTo("lecture-focus")
+    scrollTo("lecture-focus-primary")
   }
 
 

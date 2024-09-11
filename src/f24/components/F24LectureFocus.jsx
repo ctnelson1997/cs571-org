@@ -2,8 +2,8 @@ import { Button, Card } from "react-bootstrap";
 
 export default function F24LectureFocus(props) {
 
-  return <div>
-    <h2>{props.title}</h2>
+  return <div id="lecture-focus-primary">
+    <h2 style={{paddingTop: "4rem"}}>{props.title}</h2>
     <p>{props.desc}</p>
     {props.cs571org && <p><strong>Remember to replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code> within your code!</strong></p>}
     {props.notes && <Button style={{marginRight: "0.5rem"}} variant="outline-primary" onClick={() => window.open(props.notes.url, "_blank")}>Download Slides</Button>}
