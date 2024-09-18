@@ -39,8 +39,16 @@ const lectures = [
         desc: "The Design Thinking Process",
         dt: "Thursday, Sept 12th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec03-design-thinking.pdf"
+        },
+        ice: {
+            name: "ICA A",
+            url: "https://docs.google.com/document/d/1eI3kbvWBab2CJezTj6lXNXDz67uZGA_mDRJRh2AHzIU/edit?usp=sharing"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_ehzuzvv8&config[provider]={"widgetId":"1_wzqfitu4"}`
     },
     {
         title: "Web Dev Basics 2",
@@ -84,8 +92,21 @@ const lectures = [
         desc: "React Basics",
         dt: "Tuesday, September 24th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec06-webdev1.pdf"
+        },
+        hw: {
+            name: "HW3 - BadgerMart (React!)",
+            url: "https://github.com/CS571-F24/hw3"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-webdev1"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_sugwayc6&config[provider]={"widgetId":"1_tbojphtf"}`
+
     },
     {
         title: "Visual Design",
