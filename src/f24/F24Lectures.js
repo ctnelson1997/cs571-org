@@ -151,14 +151,36 @@ const lectures = [
         desc: "WIMP Design & Page Structure",
         dt: "Thursday, October 3rd",
         lectureType: "design",
-        available: false,
+        available: true,
+        cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec09-web-design.pdf"
+        },
+        ice: {
+            name: "ICA C",
+            url: "https://docs.google.com/document/d/1U2f-Lmn6OAEAEF3MQoe3MmndbQ78tQxAVp5GkpwTEwI/edit"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_jln4gvyh&config[provider]={"widgetId":"1_ldkqiig9"}`
     },
     {
         title: "Web Dev 3",
         desc: "React Context, Routing, and Storage",
         dt: "Tuesday, October 8th",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec10-webdev3.pdf"
+        },
+        hw: {
+            name: "HW5 - Badger Buddies",
+            url: "https://github.com/CS571-F24/hw5"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-webdev3"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_1yn1gq7b&config[provider]={"widgetId":"1_fe0xexec"}`
     },
     {
         title: "Interaction Design",
