@@ -187,63 +187,156 @@ const lectures = [
         desc: "Interaction Paradigms and Patterns",
         dt: "Thursday, October 10th",
         lectureType: "design",
-        available: false,
+        available: true,
+        cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec11-interaction-design.pdf"
+        },
+        ice: {
+            name: "ICA D",
+            url: "https://docs.google.com/document/d/19G39cO9O2zSw9D-dZJva9qesLr7t8RJ69AFIdqQzq10/edit?usp=sharing"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_ie0z8jjj&config[provider]={"widgetId":"1_n6nix292"}`
     },
     {
         title: "Web Dev 4",
         desc: "Complex APIs, Secret Management, and Uncontrolled Components",
         dt: "Tuesday, October 15th",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec12-webdev4.pdf"
+        },
+        hw: {
+            name: "HW6 - Badger Chat",
+            url: "https://github.com/CS571-F24/hw6"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-webdev4"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_ai9863zx&config[provider]={"widgetId":"1_pgwdvmuy"}`
     },
     {
         title: "Expert Evaluation",
         desc: "Cognitive Walkthrough and Heuristic Evaluation",
         dt: "Thursday, October 17th",
         lectureType: "design",
-        available: false,
+        available: true,
+        cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec13-expert-evaluation.pdf"
+        },
+        ice: {
+            name: "ICA E",
+            url: "https://docs.google.com/document/d/1Yoa9six7PgQW1qFNv5N8MMd04K1t4glboi4WljQZf08/edit?usp=sharing"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_ie0z8jjj&config[provider]={"widgetId":"1_n6nix292"}`
     },
     {
         title: "Web Dev 5",
         desc: "Memoization and Deployment",
         dt: "Tuesday, October 22nd",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec14-webdev5.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-webdev5"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_p09vem7h&config[provider]={"widgetId":"1_9v05vks7"}`
     },
     {
         title: "Mobile Dev 1",
         desc: "React Native Basics",
         dt: "Tuesday, October 29th",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec15-mobiledev1.pdf"
+        },
+        hw: {
+            name: "HW7 - Badger Mart",
+            url: "https://github.com/CS571-F24/hw7"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-mobiledev1"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_9w5bc480&config[provider]={"widgetId":"1_xd2gvd8x"}`
     },
     {
-        title: "Prototyping",
-        desc: "Prototyping Theory and Practice",
+        title: "Mobile Design",
+        desc: "Interactions, Gestures, and Patterns",
         dt: "Thursday, October 31st",
         lectureType: "design",
-        available: false,
+        available: true,
+        cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec16-mobile-design.pdf"
+        },
+        ice: {
+            name: "ICA F",
+            url: "https://docs.google.com/document/d/1Co92qdce7blTvZ8bwaS1O6kJkrsTBZj_caP2bZ90AvE/edit?usp=sharing"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_lyedspi9&config[provider]={"widgetId":"1_pzy936fe"}`
     },
     {
         title: "Mobile Dev 2",
         desc: "Animations and Navigation",
         dt: "Tuesday, November 5th",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec17-mobiledev2.pdf"
+        },
+        hw: {
+            name: "HW8 - Badger News",
+            url: "https://github.com/CS571-F24/hw8"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_xev1wxjj&config[provider]={"widgetId":"1_wymkbadd"}`
     },
     {
-        title: "Mobile Design",
-        desc: "Interactions, Gestures, and Patterns",
+        title: "Prototyping",
+        desc: "Prototyping Theory and Practice",
         dt: "Thursday, November 7th",
         lectureType: "design",
-        available: false,
+        available: true,
+        cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec18-prototyping.pdf"
+        },
+        ice: {
+            name: "ICA G",
+            url: "https://docs.google.com/document/d/1yDdeQwlxHjTITdblEX4psUVjkMCAKXWpvoqLbYIlF7I/edit?usp=sharing"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_h5jlyyne&config[provider]={"widgetId":"1_g040j44f"}`
     },
     {
         title: "Mobile Dev 3",
         desc: "Gestures, Sensors, and Deployment",
         dt: "Tuesday, November 12th",
         lectureType: "implementation",
-        available: false,
+        available: true,
+        cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-F24/lectures/main/lec19-mobiledev3.pdf"
+        },
+        hw: {
+            name: "HW9 - Badger Chat",
+            url: "https://github.com/CS571-F24/hw9"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-F24/ice-mobiledev3"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_w5w2fyk8&config[provider]={"widgetId":"1_y362z3i8"}`
     },
     {
         title: "Accessibility",
