@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Button, Card } from "react-bootstrap";
 
-export default function F24LectureFocus(props) {
+export default function S25LectureFocus(props) {
   let hasInit = false;
   const foc = useRef();
   useEffect(() => {

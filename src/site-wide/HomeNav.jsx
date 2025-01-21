@@ -100,6 +100,7 @@ const HomeNav = (props) => {
                                         <Nav.Link as={Link} to={"/auth"}>BadgerAuth</Nav.Link>
                                 }
                                 <NavDropdown title="Past Semesters">
+                                    <NavDropdown.Item as={Link} to={"/f24"}>Fall 2024</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to={"/s24"}>Spring 2024</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to={"/f23"}>Fall 2023</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to={"/s23"}>Spring 2023</NavDropdown.Item>

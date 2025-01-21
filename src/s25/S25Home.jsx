@@ -1,11 +1,11 @@
 import { Alert, Button, Card, Col, Container, Modal, Row, Table } from 'react-bootstrap';
-import F24LectureCard from './components/F24LectureCard';
+import S25LectureCard from './components/S25LectureCard';
 import { useState } from 'react';
-import F24LectureFocus from './components/F24LectureFocus';
+import S25LectureFocus from './components/S25LectureFocus';
 import CS571Configurator from '../config/configurator';
-import lectures from './F24Lectures';
+import lectures from './S25Lectures';
 
-function F24Home() {
+function S25Home() {
 
   const [allLectures, setAllLectures] = useState(lectures);
   const [selectedLecture, setSelectedLecture] = useState(allLectures[0]);
@@ -25,11 +25,9 @@ function F24Home() {
 
   return (
     <div className="pad">
-      <Alert variant='warning'><strong>This is an older version of the course.</strong> Its APIs are supported until September 1st, 2025.</Alert>
-
       <div style={{ textAlign: "center", marginBottom: "1rem" }}>
-        <h1>Welcome to CS571 Fall 2024!</h1>
-        <p>Co-taught by <a target="_blank" href="https://coletnelson.us/">Cole Nelson</a> and <a target="_blank" href="https://www.yuhangz.com/">Yuhang Zhao</a></p>
+        <h1>Welcome to CS571 Spring 2025!</h1>
+        <p>Co-taught by <a target="_blank" href="https://coletnelson.us/">Cole Nelson</a> and <a target="_blank" href="https://www.edayaxin.com/">Yaxin Hu</a></p>
         {!CS571Configurator.IS_ON_PREM && <Button onClick={() => scrollTo("lecture-focus")}>Let's get started!</Button>}
       </div>
       <Container>
@@ -51,9 +49,9 @@ function F24Home() {
           </Col>
           <Col xs={12} md={6}>
             <h3>Course Syllabus</h3>
-            <p>You can <a target='_blank' href='https://raw.githubusercontent.com/CS571-F24/lectures/main/CS571%20F24%20Syllabus.pdf'>download the course syllabus here</a>.</p>
+            <p>You can <a target='_blank' href='https://raw.githubusercontent.com/CS571-S25/lectures/main/CS571%20S25%20Syllabus.pdf'>download the course syllabus here</a>.</p>
             <h3>Getting Started</h3>
-            <p>The semester begins on <strong>Thursday, September 5th, 2024</strong>. Lecture slides and recordings will be posted every Tuesday and Thursday.</p>
+            <p>The semester begins on <strong>Tuesday, January 21st, 2025</strong>. Lecture slides and recordings will be posted every Tuesday and Thursday.</p>
             <p>A Badger ID (a unique ID representing <em>you</em>) is needed to complete the homework assignments; you can get one by visiting <a target="_blank" href={CS571Configurator.BADGERAUTH_UI_CENTER}>the BadgerAuth Center</a>.</p>
             {!CS571Configurator.IS_ON_PREM && <p>When making API requests, simply replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code></p>}
           </Col>
@@ -75,14 +73,14 @@ function F24Home() {
               <Row style={{ maxHeight: "80vh", alignItems: "center", display: "inline-grid", overflowY: "auto" }}>
                 {
                   allLectures.map(t => <Col key={t.title} xs={12}>
-                    <F24LectureCard {...t} showLecture={showLecture} />
+                    <S25LectureCard {...t} showLecture={showLecture} />
                   </Col>)
                 }
               </Row>
             </Container>
           </Col>
           <Col xs={12} md={8}>
-            <div><F24LectureFocus {...selectedLecture} /></div>
+            <div><S25LectureFocus {...selectedLecture} /></div>
           </Col>
         </Row>
       </Container>}
@@ -90,4 +88,4 @@ function F24Home() {
   );
 }
 
-export default F24Home;
+export default S25Home;
