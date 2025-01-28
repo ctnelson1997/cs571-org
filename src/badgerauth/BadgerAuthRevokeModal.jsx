@@ -69,7 +69,7 @@ function BadgerAuthRevokeModal({
             <Form onSubmit={handleSubmit(create)}>
                 <p style={{marginTop: "0.5rem"}}>You are about to revoke the Badger ID starting with <strong>{bid.substring(4, 11)}</strong>...</p>
                 <p style={{color: "maroon"}}><strong>This action is irreversible!</strong></p>
-                <p>Please note that it may take up to 15 minutes for a Badger ID to be invalidated.</p>
+                <p>Please note that it may take up to 1 minute for a Badger ID to be invalidated.</p>
                 <Modal.Footer style={{ marginTop: "0.5rem" }}>
                     <Button variant="danger" type="submit">Confirm</Button>
                     <Button variant="secondary" onClick={() => close(false)} style={{ marginLeft: "0.5rem" }}>Cancel</Button>

@@ -3,24 +3,52 @@ const lectures = [
         title: "Intro to CS571",
         desc: "Introduces CS571 & JSON.",
         dt: "Tuesday, Jan 21st",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec01-intro.pdf"
+        },
+        hw: {
+            name: "HW0 - JSON",
+            url: "https://github.com/CS571-S25/hw0"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_bhsd95f6&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev Basics 1",
         desc: "HTML, CSS, and JS Basics",
         dt: "Thursday, Jan 23rd",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec02-webdevbasics1.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdevbasics1"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_5snlay7a&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev Basics 2",
         desc: "DOM Manipulation and API Requests",
         dt: "Tuesday, Jan 28th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec03-webdevbasics2.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdevbasics2"
+        },
+        hw: {
+            name: "HW1 - BadgerMart",
+            url: "https://github.com/CS571-S25/hw1"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_ymlvg5kh&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Design Thinking",
