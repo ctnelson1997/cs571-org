@@ -55,32 +55,72 @@ const lectures = [
         desc: "The Design Thinking Process",
         dt: "Thursday, Jan 30th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec04-designthinking.pdf"
+        },
+        ice: {
+            name: "ICA A",
+            url: "https://docs.google.com/document/d/1Is6o1CzyuTfsyVAw8qyZEE2kvD-F7e-De4vAuNtqm5Y/edit"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_5av8aifs&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev Basics 3",
         desc: "Various Topics including Declarative Programming, Syntactic Sugar, and CSS Libraries",
         dt: "Tuesday, Feb 4th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec05-webdevbasics3.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdevbasics3"
+        },
+        hw: {
+            name: "HW2 - BadgerMart",
+            url: "https://github.com/CS571-S25/hw2"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_92jgs564&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Visual Design",
         desc: "Aesthetics & Pyschology of Design",
         dt: "Thursday, Feb 6th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec06-visual-design.pdf"
+        },
+        ice: {
+            name: "ICA B",
+            url: "https://docs.google.com/document/d/1NSb0h4FotvF82ZkQlontMoxrSvGGj0m362Ihbdyp3LY/edit"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_noabxnkk&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev 1",
         desc: "React Basics",
         dt: "Tuesday, Feb 11th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec07-webdev1.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdev1"
+        },
+        hw: {
+            name: "HW3 - BadgerMart (React!)",
+            url: "https://github.com/CS571-S25/hw3"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_0guk2pai&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Design",
