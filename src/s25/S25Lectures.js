@@ -127,24 +127,52 @@ const lectures = [
         desc: "WIMP Design & Page Structure",
         dt: "Thursday, Feb 13th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec08-web-design.pdf"
+        },
+        ice: {
+            name: "ICA C",
+            url: "https://docs.google.com/document/d/1D9sJ7-KNTcWPuAgKe09pmv-qoRb5nFWh-9Vrb51fMKQ/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_f1doy1b0&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev 2",
         desc: "React Lifecycle, Lists, and Inputs",
         dt: "Tuesday, Feb 18th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec09-webdev2.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdev2"
+        },
+        hw: {
+            name: "HW4 - BadgerBook (React!)",
+            url: "https://github.com/CS571-S25/hw4"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_7620bxu3&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Interaction Design",
         desc: "Interaction Paradigms and Patterns",
         dt: "Thursday, Feb 20th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec10-interaction-design.pdf"
+        },
+        ice: {
+            name: "ICA D",
+            url: "https://docs.google.com/document/d/1KCWZLpS_ZvRGKTjX_69R8bIc7CD8A5eXdj-wHbNStTM/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_157u48m5&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev 3",
