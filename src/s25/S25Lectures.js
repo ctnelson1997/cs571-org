@@ -179,40 +179,88 @@ const lectures = [
         desc: "React Context, Routing, and Storage",
         dt: "Tuesday, Feb 25th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec11-webdev3.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdev3"
+        },
+        hw: {
+            name: "HW5 - BadgerBuds",
+            url: "https://github.com/CS571-S25/hw5"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_vze3a2wm&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Expert Evaluation",
         desc: "Cognitive Walkthrough and Heuristic Evaluation",
         dt: "Thursday, Feb 27th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec12-expert-evaluation.pdf"
+        },
+        ice: {
+            name: "ICA E",
+            url: "https://docs.google.com/document/d/1ZY5AOtVsTIV6qbTsgvaNGW_lo25zggGYUl-WSWeuV54/edit?usp=sharing"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_mmrycou2&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev 4",
         desc: "Complex APIs, Secret Management, and Uncontrolled Components",
         dt: "Tuesday, Mar 4th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec13-webdev4.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdev4"
+        },
+        hw: {
+            name: "HW6 - BadgerChat",
+            url: "https://github.com/CS571-S25/hw6"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_slx0or6x&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Accessibility",
         desc: "Accessible Design and Assistive Technologies",
         dt: "Thursday, Mar 6th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec14-accessibility.pdf"
+        },
+        ice: {
+            name: "ICA F",
+            url: "https://docs.google.com/document/d/18rn5PmqWgEvLQrfHgJd4dHYX2QVwE9f14GEBTE8PwGg/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_fjqrrjio&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Web Dev 5",
         desc: "Memoization and Deployment",
         dt: "Tuesday, Mar 11th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec15-webdev5.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-webdev5"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_f58y113n&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Mobile Dev 1",
