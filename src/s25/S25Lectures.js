@@ -267,32 +267,68 @@ const lectures = [
         desc: "React Native Basics",
         dt: "Tuesday, Mar 18th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec16-mobiledev1.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-mobiledev1"
+        },
+        hw: {
+            name: "HW7 - BadgerMart (Mobile!)",
+            url: "https://github.com/CS571-S25/hw7"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_sq9dqqym&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Prototyping",
         desc: "Prototyping Theory and Practice",
         dt: "Thursday, Mar 20th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec17-prototyping.pdf"
+        },
+        ice: {
+            name: "ICA G",
+            url: "https://docs.google.com/document/d/1uilWgeXtGi-V1LCB5CsydRCBXDno46RuhD1swh6nD84/edit?usp=sharing"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_igv9obd0&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Mobile Dev 2",
         desc: "Animations and Navigation",
         dt: "Tuesday, Apr 1st",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec18-mobiledev2.pdf"
+        },
+        hw: {
+            name: "HW8 - BadgerNews",
+            url: "https://github.com/CS571-S25/hw8"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_9q5rk4oq&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Mobile Design",
         desc: "Interactions, Gestures, and Patterns",
         dt: "Thursday, Apr 3rd",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec19-mobile-design.pdf"
+        },
+        ice: {
+            name: "ICA H",
+            url: "https://docs.google.com/document/d/1W91-NYBSWOd0Ty3Nwe_yy7hnRZj--MUW4aM7hL0dUuo/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_s6jayucv&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Mobile Dev 3",
