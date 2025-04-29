@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Button, Card } from "react-bootstrap";
+import { Alert, Button, Card } from "react-bootstrap";
 
 export default function S25LectureFocus(props) {
   let hasInit = false;
@@ -12,8 +12,10 @@ export default function S25LectureFocus(props) {
   }, [props])
 
   return <div id="lecture-focus-primary" >
-    <h2 style={{paddingTop: "4rem"}}>{props.title}</h2>
-    <p >{props.desc}</p>
+    <div style={{paddingTop: "4rem"}}></div>
+    {props.alert && <Alert variant={props.alertVariant ?? "primary"} style={{marginTop: "0.5rem"}}><div dangerouslySetInnerHTML={{__html: props.alert}}></div></Alert>}
+    <h2>{props.title}</h2>
+    <p>{props.desc}</p>
     {props.cs571org && <p><strong>Remember to replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code> within your code!</strong></p>}
     {props.notes && <Button ref={foc} style={{marginRight: "0.5rem"}} variant="outline-primary" onClick={() => window.open(props.notes.url, "_blank")}>Download Slides</Button>}
     {props.hw && <Button style={{marginRight: "0.5rem"}} variant="outline-secondary" onClick={() => window.open(props.hw.url, "_blank")}>{props.hw.name}</Button>}

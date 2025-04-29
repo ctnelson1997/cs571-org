@@ -335,56 +335,120 @@ const lectures = [
         desc: "Gestures, Sensors, and Deployment",
         dt: "Tuesday, Apr 8th",
         lectureType: "implementation",
-        available: false,
+        alert: "<p>Due to illness, this lecture is a re-upload of Fall 2024. Simply replace 'F24' with 'S25'.</p>",
+        alertVariant: "warning",
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec20-mobiledev3.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-mobiledev3"
+        },
+        hw: {
+            name: "HW9 - BadgerChat (Mobile!)",
+            url: "https://github.com/CS571-S25/hw9"
+        },
+        vid: `https://www.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?iframeembed=true&playlist_id=1_w5w2fyk8&config[provider]={"widgetId":"1_y362z3i8"}`
     },
     {
         title: "VUI Design",
         desc: "Command and Control vs. Conversational Agents",
         lectureType: "design",
         dt: "Thursday, Apr 10th",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec21-vui-design.pdf"
+        },
+        ice: {
+            name: "ICA I",
+            url: "https://docs.google.com/document/d/112F0uZi2fvfu4cPCFctIjDaz-J2STnoS-7dgdwfVuaQ/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_qhtg5875&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "VUI Dev 1",
         desc: "WitAI Basics",
         dt: "Tuesday, Apr 15th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec22-voicedev1.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-voicedev1"
+        },
+        hw: {
+            name: "HW10 - BadgerChat (WitAI!)",
+            url: "https://github.com/CS571-S25/hw10"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_ojicdgva&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Designing Agents",
         desc: "Agent Design and Behavior",
         dt: "Thursday, Apr 17th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec23-designing-agents.pdf"
+        },
+        ice: {
+            name: "ICA J",
+            url: "https://docs.google.com/document/d/1QzU3vZxgKXReoOyfFDjBin-Udz-zB4z-Yoi3i9qr2Eg/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_ba0xl2pc&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "VUI Dev 2",
         desc: "Handling Complex Conversations",
         dt: "Tuesday, Apr 22nd",
         lectureType: "implementation",
-        available: false,
-        cs571org: true,
+        available: true,
+        cs571org: false,
+        alert: "<p>Unfortunately, HW11 and its generative AI API are <strong>unavailable</strong> to cs571.org users due to their cost. Consider using the <a target='_blank' href='https://openai.com/api/'>OpenAI API</a> instead!</p>",
+        alertVariant: "warning",
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec24-voicedev2.pdf"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_c5jmk1o0&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "Usability Evaluation",
         desc: "Usability Testing",
         dt: "Thursday, Apr 24th",
         lectureType: "design",
-        available: false,
+        available: true,
         cs571org: false,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec25-usability-testing.pdf"
+        },
+        ice: {
+            name: "ICA K",
+            url: "https://docs.google.com/document/d/1XKDEe3fwWIjgrzz_AA0hQl55T2a-AWhOtcoreSaV9tc/edit?tab=t.0#heading=h.k3oq3re8nrea"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_9bab4sdi&iframeembed=true&playerId=kaltura_player`
     },
     {
         title: "FullStack Development",
         desc: "FullStack Development using ExpressJS and Docker",
-        dt: "Tuesday, May 1st",
+        dt: "Tuesday, April 29th",
         lectureType: "implementation",
-        available: false,
+        available: true,
         cs571org: true,
+        notes: {
+            url: "https://raw.githubusercontent.com/CS571-S25/lectures/main/lec26-fullstack.pdf"
+        },
+        ice: {
+            name: "In-Class Exercise",
+            url: "https://github.com/CS571-S25/ice-fullstack"
+        },
+        vid: `https://cdnapisec.kaltura.com/p/1660902/embedPlaykitJs/uiconf_id/55063162?entry_id=1_8104qq9t&iframeembed=true&playerId=kaltura_player`
     }
 ];
 
