@@ -1,10 +1,11 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import CS571Configurator from '../config/configurator';
 
-function SU25Home() {
+function F25Home() {
   return (
     <div className="pad">
       <div style={{ textAlign: "center", marginBottom: "1rem" }}>
-        <h1>Welcome to CS571 Summer 2025!</h1>
+        <h1>Welcome to CS571 Fall 2025!</h1>
         <p>Taught by <a target="_blank" href="https://coletnelson.us/">Cole Nelson</a></p>
       </div>
       <Container>
@@ -25,9 +26,12 @@ function SU25Home() {
 
           </Col>
           <Col xs={12} md={6}>
-            <h3>Course Information</h3>
-            <p>The summer term is an accelerated term available <em>only to enrolled UW-Madison students.</em> Interested in enrolling? Visit <a target='_blank' href='https://enroll.wisc.edu/search'>enroll.wisc.edu</a>.</p>
-            <p>Not a UW-Madison student? Spring 2025 is freely available to <em>everyone</em> at <a target='_blank' href='https://cs571.org/'>cs571.org</a>. Fall 2025 will also be made freely available in September.</p>
+            <h3>Course Syllabus</h3>
+            <p>You can <a target='_blank' href='https://raw.githubusercontent.com/CS571-F25/lectures/main/CS571%20F25%20Syllabus.pdf'>download the course syllabus here</a>.</p>
+            <h3>Getting Started</h3>
+            <p>The semester begins on <strong>Thursday, September 4th, 2025</strong>. Lecture slides and recordings will be posted every Tuesday and Thursday.</p>
+            <p>A Badger ID (a unique ID representing <em>you</em>) is needed to complete the homework assignments; you can get one by visiting <a target="_blank" href={CS571Configurator.BADGERAUTH_UI_CENTER}>the BadgerAuth Center</a>.</p>
+            {!CS571Configurator.IS_ON_PREM && <p>When making API requests, simply replace <code>cs571api.cs.wisc.edu</code> with <code>cs571.org</code></p>}
           </Col>
         </Row>
 
@@ -36,4 +40,4 @@ function SU25Home() {
   );
 }
 
-export default SU25Home;
+export default F25Home;
