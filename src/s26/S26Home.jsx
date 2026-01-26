@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import CS571Configurator from '../config/configurator';
 
-function F25Home() {
+function S26Home() {
   return (
     <div className="pad">
       <div style={{ textAlign: "center", marginBottom: "1rem" }}>
