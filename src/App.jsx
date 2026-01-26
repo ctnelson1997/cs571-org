@@ -16,13 +16,15 @@ import CS571Configurator from './config/configurator';
 import PrivacyPolicy from './site-wide/PrivacyPolicy';
 import S25Home from './s25/S25Home';
 import F25Home from './f25/F25Home';
+import S26Home from './s26/S26Home';
 
 
 function App() {
   return <BrowserRouter basename={CS571Configurator.BASE}>
     <Routes>
       <Route path="/" element={<HomeNav/>}>
-        <Route index element={<F25Home />} />
+        <Route index element={<S26Home />} />
+        <Route path="s26" element={<S26Home />} />
         <Route path="f25" element={<F25Home />} />
         <Route path="s25" element={<S25Home />} />
         <Route path="f24" element={<F24Home />} />
