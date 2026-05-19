@@ -34,3 +34,77 @@ code {
   background-color: #e0e0e0;
   border-radius: 10px;
 }
+
+.timer-note-md > *:last-child {
+  margin-bottom: 0;
+}
+.timer-note-md p,
+.timer-note-md ul,
+.timer-note-md ol,
+.timer-note-md blockquote,
+.timer-note-md pre {
+  margin-bottom: 0.4em;
+}
+.timer-note-md h1,
+.timer-note-md h2,
+.timer-note-md h3,
+.timer-note-md h4,
+.timer-note-md h5,
+.timer-note-md h6 {
+  margin: 0.2em 0 0.3em;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.timer-note-md h1 { font-size: 1.75em; }
+.timer-note-md h2 { font-size: 1.5em; }
+.timer-note-md h3 { font-size: 1.3em; }
+.timer-note-md h4 { font-size: 1.15em; }
+.timer-note-md h5 { font-size: 1.05em; }
+.timer-note-md h6 { font-size: 1em; }
+.timer-note-md code,
+.timer-note-md pre,
+.timer-note-md th,
+.timer-note-md td,
+.timer-note-md blockquote {
+  font-size: 1em;
+}
+.timer-note-md ul,
+.timer-note-md ol {
+  padding-left: 1.25em;
+}
+.timer-note-md code {
+  background: #f1f3f5;
+  padding: 0 0.25em;
+  border-radius: 3px;
+}
+.timer-note-md pre {
+  background: #f1f3f5;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+.timer-note-md pre code {
+  background: transparent;
+  padding: 0;
+}
+.timer-note-md blockquote {
+  border-left: 3px solid #dee2e6;
+  padding-left: 0.6em;
+  color: #495057;
+  margin-left: 0;
+}
+.timer-note-md table {
+  border-collapse: collapse;
+  margin-bottom: 0.4em;
+}
+.timer-note-md th,
+.timer-note-md td {
+  border: 1px solid #dee2e6;
+  padding: 0.15em 0.4em;
+}
+.timer-note-md a {
+  color: #0d6efd;
+}
+.timer-note-md img {
+  max-width: 100%;
+}

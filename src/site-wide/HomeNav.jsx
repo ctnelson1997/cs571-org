@@ -140,7 +140,7 @@ const HomeNav = (props) => {
                             <Toast.Header>
                                 <strong className="me-auto">Cookie Notice 🍪</strong>
                             </Toast.Header>
-                            <Toast.Body>CS571 uses cookies to store your Badger ID and perform other essential operations. By continuing to use the website, you consent to this notice.</Toast.Body>
+                            <Toast.Body>CS571 uses cookies to store your Badger ID and perform other essential operations. By continuing to use the website, you consent to this.</Toast.Body>
                             <div style={{ margin: "0.5rem" }}>
                                 <Button onClick={dismissCookie}>Don't Show Me Again</Button>
                                 <Button onClick={banCookie} style={{ marginLeft: "0.25rem" }} variant="neutral">Disallow</Button>
