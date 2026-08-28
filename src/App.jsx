@@ -18,10 +18,12 @@ import S25Home from './s25/S25Home';
 import F25Home from './f25/F25Home';
 import S26Home from './s26/S26Home';
 import SU26Home from './su26/SU26Home';
+import LegacyVersionModal from './site-wide/components/LegacyVersionModal';
 
 
 function App() {
   return <BrowserRouter basename={CS571Configurator.BASE}>
+    <LegacyVersionModal />
     <Routes>
       <Route path="/" element={<HomeNav/>}>
         <Route index element={<SU26Home />} />

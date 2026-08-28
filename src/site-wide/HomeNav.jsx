@@ -93,6 +93,7 @@ const HomeNav = (props) => {
                         </Navbar.Brand>
                         <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
                             <Nav>
+                                <Nav.Link href="https://cs571api.cs.wisc.edu/v2/"><strong>NEW! CS571 v2</strong></Nav.Link>
                                 <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
                                 {
                                     cookieWaiver === false ?
