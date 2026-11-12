@@ -8,5 +8,6 @@ export default defineConfig({
   base: CS571Configurator.BASE,
   build: {
     sourcemap: true,
+    outDir: "docs"
 },
 })
